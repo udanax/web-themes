@@ -882,6 +882,10 @@ form .g-recaptcha {
 }
 
 @media screen and (max-width: 959px) {
+    .login-box {
+        right: 0;
+    }
+
     .login-box-text {
         display: none;
     }
