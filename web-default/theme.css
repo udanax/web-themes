@@ -881,6 +881,10 @@ form .g-recaptcha {
 
 }
 
+@media screen and (max-width: 959px) {
+    display: none;
+}
+
 @media screen and (min-width: 960px) {
     #wrapper {
         margin-left: 80px;
