@@ -32,12 +32,11 @@ img {max-width: 100%;}
 }
 .menu {
     margin-top:0px;
-    position:absolute;
+    position:fixed;
     z-index:999;
-    margin-top:20px;
     left:0px;
     right:0px;
-    top:560px;
+    top:0px;
 }
 
 .navArea {
@@ -92,18 +91,18 @@ img {max-width: 100%;}
     text-transform:uppercase;
 }
 .navbar.navbar-inverse.navbar-static-top a {
-    color:#fff;
+    color:#000;
     padding:31px 16px;
     line-height:18px;
     text-align:center;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover {
     background:none;
-    color:#fff;
+    color:#000;
 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus {
     background:none;
-    color:#fff !important;
+    color:#000 !important;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
     color:#fff;
@@ -128,7 +127,7 @@ img {max-width: 100%;}
     -moz-transition:all .5s;
     -webkit-transition:all .5s;
     transition:all .5s;
-    background:#111;
+    background:#fff;
 }
 .isFixed {
     background:#333;
@@ -153,7 +152,8 @@ img {max-width: 100%;}
 }
 /*---------------------------------------------------- 	Intro------------------------------------------------------*/
 header {
-    padding-bottom:50px;
+    padding-top: 50px;
+    margin-bottom: -40px;
 }
 .intro {
     font-family: 'Ubuntu Condensed', Tahoma;
@@ -868,10 +868,6 @@ form .g-recaptcha {
 
     .parallax {
         height: 300px;
-    }
-
-    .menu {
-        top: 260px;
     }
 
     .parallax-pattern-overlay .container {
