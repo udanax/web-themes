@@ -112,7 +112,7 @@ img {max-width: 100%;}
 }
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
     background:#ae0600;
-    color:#fff;
+    color:#fff !important;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
     background:#ae0600;
