@@ -191,6 +191,21 @@ img {
     right: 0;
     top: 0;
 }
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-wrapper {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+}
+
 .navArea {
 }
 .navbar-header {
