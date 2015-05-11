@@ -1010,9 +1010,16 @@ nav {
         }
     }
 }
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>.active>a {
     background: none;
     color: $black !important;
+    &:focus {
+        background: none;
+        color: $black !important;
+    }
     &:hover {
         color: $white;
     }
