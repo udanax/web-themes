@@ -183,27 +183,6 @@ img {
         max-height: 150px;
     }
 }
-.isFixed {
-    left: 0;
-    width: 100%;
-    background: $color_mine_shaft_approx;
-    @include transition(all .5s);
-    .navbar-inverse .navbar-nav>.active>a {
-        background: $color_bright_red_approx;
-        color: $white !important;
-        &:focus {
-            background: $color_bright_red_approx;
-            color: $white !important;
-        }
-    }
-    .navbar.navbar-inverse.navbar-static-top a {
-        color: $white;
-        &:hover {
-            background: $color_bright_red_approx;
-            color: $white;
-        }
-    }
-}
 .menu {
     margin-top: 0;
     position: fixed;
@@ -253,6 +232,27 @@ img {
 .stuckMenu {
     @include transition(all .5s);
     background: $white;
+}
+.isFixed {
+    left: 0;
+    width: 100%;
+    background: $color_mine_shaft_approx;
+    @include transition(all .5s);
+    .navbar-inverse .navbar-nav>.active>a {
+        background: $color_bright_red_approx;
+        color: $white !important;
+        &:focus {
+            background: $color_bright_red_approx;
+            color: $white !important;
+        }
+    }
+    .navbar.navbar-inverse.navbar-static-top a {
+        color: $white;
+        &:hover {
+            background: $color_bright_red_approx;
+            color: $white;
+        }
+    }
 }
 .collapse {
     display: block !important;
