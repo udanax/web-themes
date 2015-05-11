@@ -1014,10 +1014,10 @@ nav {
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-nav>.active>a {
     background: none;
-    color: $black !important;
+    color: $black;
     &:focus {
         background: none;
-        color: $black !important;
+        color: $black;
     }
     &:hover {
         color: $white;
