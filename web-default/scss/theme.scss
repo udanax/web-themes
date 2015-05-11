@@ -143,6 +143,11 @@ body {
     font-weight: 400;
     overflow-x: hidden;
 }
+
+iframe {
+    border: 0;
+}
+
 .playball {
     font-family: $font_2, $font_3;
 }
