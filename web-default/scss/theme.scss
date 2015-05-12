@@ -925,6 +925,9 @@ blockquote {
 }
 
 @media screen and (max-width: 768px) {
+    .menu {
+        z-index: 2000;
+    }
     .language-box, .reservation-box {
         top: 54px;
     }
