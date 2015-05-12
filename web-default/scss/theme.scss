@@ -921,14 +921,16 @@ blockquote {
     color: #fff;
     cursor: pointer;
 }
-@media screen and (min-width: 1145px) {
+@media screen and (min-width: 1225px) {
     .reservation-box {
+        z-index: 1000;
         top: 0;
         height: 80px;
         padding: 25px 30px;
     }
 
     .language-box {
+        z-index: 1000;
         top: 0;
     }
 }
