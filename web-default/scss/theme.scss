@@ -887,12 +887,8 @@ blockquote {
 .language-box {
     position: fixed;
     left: 80px;
-    top: 80px;
-    height: 80px;
     background-color: #fff;
     color: #000;
-    z-index: 1000;
-    cursor: pointer;
     font-weight: bold;
 
     img.flag {
@@ -918,13 +914,18 @@ blockquote {
 }
 .reservation-box {
     position: fixed;
-    z-index: 1000;
     right: 0;
-    top: 80px;
     background-color: #2c691f;
     z-index: 100;
     padding: 20px 30px;
     color: #fff;
+}
+
+.reservation-box, .language-box {
+    z-index: 1000;
+    top: 80px;
+    height: 65px;
+    padding: 20px 30px;
     cursor: pointer;
 }
 
@@ -941,16 +942,11 @@ blockquote {
 }
 
 @media screen and (min-width: 1220px) {
-    .reservation-box {
+    .language-box, .reservation-box {
         z-index: 1000;
         top: 0;
         height: 80px;
         padding: 25px 30px;
-    }
-
-    .language-box {
-        z-index: 1000;
-        top: 0;
     }
 }
 .alert {
