@@ -886,7 +886,6 @@ blockquote {
     background-color: #fff;
     color: #000;
     z-index: 1000;
-    padding: 25px 20px;
     cursor: pointer;
     font-weight: bold;
 
@@ -897,6 +896,10 @@ blockquote {
     .title {
         position: relative;
         top: 2px;
+    }
+
+    .wrap {
+        padding: 25px 20px;
     }
 }
 .reservation-box {
