@@ -900,10 +900,6 @@ blockquote {
         top: 2px;
     }
 
-    .wrap {
-        padding: 17px 20px;
-    }
-
     .dropdown-menu li {
         padding: 5px 15px;
 
@@ -917,7 +913,6 @@ blockquote {
     right: 0;
     background-color: #2c691f;
     z-index: 100;
-    padding: 20px 30px;
     color: #fff;
 }
 
@@ -926,6 +921,7 @@ blockquote {
     top: 80px;
     height: 65px;
     cursor: pointer;
+    padding: 20px 30px;
 }
 
 @media screen and (max-width: 768px) {
