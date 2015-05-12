@@ -230,7 +230,9 @@ img {
     padding-left: 0px;
 }
 @media screen and (min-width: 991px) {
-    padding-left: 80px;
+    .navbar-nav {
+        padding-left: 80px;
+    }
 }
 .navbar-toggle {
     margin-top: 14px;
