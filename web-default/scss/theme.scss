@@ -901,6 +901,14 @@ blockquote {
     .wrap {
         padding: 25px 20px;
     }
+
+    .dropdown-menu li {
+        padding: 5px 15px;
+
+        &:hover {
+            background: #f0f0f0;
+        }
+    }
 }
 .reservation-box {
     position: fixed;
