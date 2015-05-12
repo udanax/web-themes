@@ -881,7 +881,7 @@ blockquote {
 .language-box {
     position: fixed;
     left: 80px;
-    top: 0px;
+    top: 80px;
     height: 80px;
     background-color: #fff;
     color: #000;
@@ -912,6 +912,7 @@ blockquote {
 }
 .reservation-box {
     position: fixed;
+    z-index: 1000;
     right: 0;
     top: 80px;
     background-color: #2c691f;
@@ -919,6 +920,17 @@ blockquote {
     padding: 20px 30px;
     color: #fff;
     cursor: pointer;
+}
+@media screen and (min-width: 1145px) {
+    .reservation-box {
+        top: 0;
+        height: 80px;
+        padding: 25px 30px;
+    }
+
+    .language-box {
+        top: 0;
+    }
 }
 .alert {
     font-weight: bold;
