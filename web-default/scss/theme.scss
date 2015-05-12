@@ -878,6 +878,37 @@ blockquote {
         color: $white;
     }
 }
+.language-box {
+    position: fixed;
+    left: 80px;
+    top: 0px;
+    height: 80px;
+    background-color: #fff;
+    color: #000;
+    z-index: 1000;
+    padding: 25px 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+    img.flag {
+        height: 30px
+    }
+
+    .title {
+        position: relative;
+        top: 2px;
+    }
+}
+.reservation-box {
+    position: fixed;
+    right: 0;
+    top: 80px;
+    background-color: #2c691f;
+    z-index: 100;
+    padding: 20px 30px;
+    color: #fff;
+    cursor: pointer;
+}
 .alert {
     font-weight: bold;
     font-size: 1.5em;
