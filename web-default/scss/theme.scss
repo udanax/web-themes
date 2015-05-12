@@ -928,6 +928,12 @@ blockquote {
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    .language-box, .reservation-box {
+        top: 54px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .language-box {
         left: 0;
