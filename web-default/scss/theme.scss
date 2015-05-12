@@ -927,6 +927,13 @@ blockquote {
     color: #fff;
     cursor: pointer;
 }
+
+@media screen and (max-width: 991px) {
+    .language-box {
+        left: 0;
+    }
+}
+
 @media screen and (min-width: 1220px) {
     .reservation-box {
         z-index: 1000;
