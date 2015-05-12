@@ -921,7 +921,10 @@ blockquote {
     top: 80px;
     height: 65px;
     cursor: pointer;
-    padding: 20px 30px;
+
+    .wrap {
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -944,7 +947,10 @@ blockquote {
         z-index: 1000;
         top: 0;
         height: 80px;
-        padding: 25px 20px;
+
+        .wrap {
+            padding: 25px 20px;
+        }
     }
 }
 .alert {
