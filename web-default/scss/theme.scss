@@ -932,7 +932,8 @@ blockquote {
         z-index: 2000;
     }
     .language-box, .reservation-box {
-        top: 54px;
+        top: 0;
+        background: transparent;
     }
 }
 
