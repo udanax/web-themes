@@ -934,6 +934,13 @@ blockquote {
     .language-box, .reservation-box {
         top: 0;
         background: transparent;
+        z-index: 2100;
+        height: 54px;
+        color: #fff;
+
+        .wrap {
+            padding: 12px 30px;
+        }
     }
 }
 
