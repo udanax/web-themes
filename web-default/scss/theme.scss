@@ -931,9 +931,20 @@ blockquote {
     .menu {
         z-index: 2000;
     }
-    .language-box, .reservation-box {
+    .language-box {
         top: 0;
         background: transparent;
+        z-index: 2100;
+        height: 54px;
+        color: #fff;
+
+        .wrap {
+            padding: 12px 15px;
+        }
+    }
+
+    .reservation-box {
+        top: 54px;
         z-index: 2100;
         height: 54px;
         color: #fff;
