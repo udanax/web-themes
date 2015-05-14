@@ -953,6 +953,11 @@ blockquote {
             padding: 12px 15px;
         }
     }
+
+    .modal {
+        margin-top: 50px;
+        z-index: 2100;
+    }
 }
 
 @media screen and (max-width: 991px) {
