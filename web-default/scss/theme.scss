@@ -1009,6 +1009,13 @@ blockquote {
         min-width: 100%;
     }
 }
+
+@media print {
+    .dividerline {
+        display: none;
+    }
+}
+
 @media screen and(max-height: 580px) {
     .dividerline {
         display: none;
