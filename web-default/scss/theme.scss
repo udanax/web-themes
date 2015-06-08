@@ -890,7 +890,6 @@ blockquote {
     background-color: #fff;
     color: #000;
     font-weight: bold;
-    z-index: 10000 !important;
 
     img.flag {
         height: 30px
@@ -918,7 +917,7 @@ blockquote {
 }
 
 .reservation-box, .language-box {
-    z-index: 1000;
+    z-index: 10000;
     top: 80px;
     height: 65px;
     cursor: pointer;
