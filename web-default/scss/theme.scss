@@ -836,7 +836,7 @@ blockquote {
 }
 .alert-box {
     position: fixed;
-    z-index: 1500;
+    z-index: 950;
     top: 80px;
     left: 0;
     right: 0;
@@ -917,7 +917,7 @@ blockquote {
 }
 
 .reservation-box, .language-box {
-    z-index: 10000;
+    z-index: 960;
     top: 80px;
     height: 65px;
     cursor: pointer;
