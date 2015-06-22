@@ -1227,5 +1227,22 @@ form .g-recaptcha {
             width: 60%;
             max-width: 200px;
         }
+
+        ul.socials {
+            list-style-type: none;
+            font-size: 1.5em;
+
+            li {
+                display: inline-block;
+
+                a {
+                    background-color: #fff;
+                    color: #000 !important;
+                    width: 1em;
+                    height: 1em;
+                    border-radius: 5px;
+                }
+            }
+        }
     }
 }
