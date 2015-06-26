@@ -915,6 +915,10 @@ blockquote {
     background-color: #2c691f;
     z-index: 100;
     color: #fff;
+
+    .wrap {
+        white-space: nowrap;
+    }
 }
 
 .reservation-box, .language-box {
