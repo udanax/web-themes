@@ -1318,11 +1318,16 @@ form .g-recaptcha {
 	padding: 0;
 	width: 180px;
 	text-align: left;
+	border-bottom: 3px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 }
 
 .submenu li {
 	background-color: #fff;
 	padding: 5px 5px;
+	border-bottom: 1px solid #ccc;
 }
 
 .submenu li:hover {
