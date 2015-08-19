@@ -863,8 +863,8 @@ blockquote {
 		.item {
 			height: 100%;
 			width: 100%;
-			background-position: center;
-			background-size: cover;
+			background-position: center !important;
+			background-size: cover !important;
 
 			/* For back compatibility - may be removed in the future */
 			img {
