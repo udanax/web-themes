@@ -860,9 +860,12 @@ blockquote {
 	.carousel-inner {
 		height: 100%;
 		width: 100%;
+		background-position: center;
+		background-size: cover;
 		.item {
 			height: 100%;
 			width: 100%;
+			/* For back compatibility - may be removed in the future */
 			img {
 				min-height: 100%;
 				min-width: 100%;
