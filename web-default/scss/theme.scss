@@ -992,6 +992,10 @@ blockquote {
 		margin-top: 50px;
 		z-index: 2100;
 	}
+
+	.papers:before, .papers:after {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 991px) {
