@@ -1389,3 +1389,28 @@ form .g-recaptcha {
 	color: #fff;
 }
 /* End of Sections */
+
+/* List Bange */
+.list-bange {
+	width: 1.7em;
+	height: 1.7em;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.2em;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	background-color: #ae0600;
+}
+
+.bange-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.bange-list li {
+	margin-bottom: 0.5em;
+}
+/* End of List Bange */
