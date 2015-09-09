@@ -177,6 +177,7 @@ h6 {
 a {
 	color: $color_bright_red_approx;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover {
 		color: $color_bright_red_approx;
 		text-decoration: none;
