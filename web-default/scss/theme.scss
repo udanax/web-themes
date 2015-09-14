@@ -1227,7 +1227,7 @@ form .g-recaptcha {
 	margin-top: -10px;
 }
 
-.header-panel {
+.header-panel, .header-panel-left {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -1286,6 +1286,10 @@ form .g-recaptcha {
 			}
 		}
 	}
+}
+
+.header-panel-left {
+	left: 0;
 }
 
 .flyers-carousel {
