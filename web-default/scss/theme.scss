@@ -1094,7 +1094,6 @@ nav {
 		max-width: 80%;
 		height: 90%;
 		opacity: 0.5;
-		filter: drop-shadow(0px 0 20px $white );
 		&:hover {
 			opacity: 1;
 		}
@@ -1110,6 +1109,9 @@ nav {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
+		&#main-pages {
+			height: 100%;
+		}
 		&#main-pages>li {
 			height: 50px;
 			width: 100%;
