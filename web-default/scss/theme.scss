@@ -149,6 +149,10 @@ iframe {
 	border: 0;
 }
 
+.wrapper {
+	overflow-x: hidden;
+}
+
 .playball {
 	font-family: $font_2, $font_3;
 }
