@@ -1009,6 +1009,11 @@ blockquote {
 		z-index: 2100;
 	}
 
+	.papers {
+		width: 100%;
+		padding: 1em;
+	}
+
 	.papers:before, .papers:after {
 		display: none;
 	}
