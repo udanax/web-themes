@@ -1459,3 +1459,36 @@ li.submenu-group:hover {
 .intro-text-shadow {
 	text-shadow: 2px 2px 2px #000;
 }
+
+.partners-list {
+	.logo-box {
+		float: left;
+		width: 200px;
+		text-align: center;
+		margin-right: 20px;
+
+		img {
+			max-height: 200px;
+			max-width: 200px;
+		}
+	}
+
+	.branch-table {
+		font-size: 15px;
+
+		th {
+			text-align: left;
+		}
+
+		td {
+			text-align: left;
+		}
+	}
+}
+
+@media screen and(max-width: 480px) {
+	.partners-list .logo-box {
+		float: left;
+		margin: 0 auto;
+	}
+}
