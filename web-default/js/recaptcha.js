@@ -22,8 +22,8 @@ function initRecaptcha() {
 }
 
 function getLang() {
-	lgParam = getParameterByName('lg');
-	return getParameterByName('lg') === null ? "en" : lgParam;
+	lgParam = getParameterByName("lg");
+	return lgParam === null ? "en" : lgParam;
 }
 
 function getParameterByName(name) {
