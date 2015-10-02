@@ -27,10 +27,8 @@ function getLang() {
 }
 
 function getParameterByName(name) {
-	var scripts = document.getElementsByTagName("script"),
-			src = scripts[scripts.length - 1].src;
-
-	params = getParams(src);
+	var scripts = document.getElementsByTagName("script")
+	var params = getParams(scripts[scripts.length - 1].src);
 	return params[name];
 }
 
@@ -43,3 +41,6 @@ function getParams(url) {
 	}
 	return params;
 }
+
+console.log(getLang());
+console.log(getParameterByName("lg"));
