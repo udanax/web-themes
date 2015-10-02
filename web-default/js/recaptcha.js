@@ -1,3 +1,9 @@
+
+function RCgetLang() {
+	lgParam = RCgetParameterByName("lg");
+	return lgParam === null ? "cs" : lgParam;
+}
+
 function RCgetParameterByName(name) {
 	var scripts = document.getElementsByTagName("script")
 	var params = RCgetParams(scripts[scripts.length - 1].src);
@@ -14,10 +20,7 @@ function RCgetParams(url) {
 	return params;
 }
 
-var RCLang = (function () {
-	lgParam = RCgetParameterByName("lg");
-	return lgParam === null ? "cs" : lgParam;
-});
+var RCLang = RCgetLang();
 
 function initRecaptcha() {
 	try {
