@@ -27,8 +27,19 @@ function getLang() {
 }
 
 function getParameterByName(name) {
-	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-			results = regex.exec(location.search);
-	return results === null ? null : decodeURIComponent(results[1].replace(/\+/g, " "));
+	var scripts = document.getElementsByTagName("script"),
+			src = scripts[scripts.length - 1].src;
+
+	params = getParams(src);
+	return params[name];
+}
+
+function getParams(url) {
+	var regex = /[?&]([^=#]+)=([^&#]*)/g,
+			params = {},
+			match;
+	while (match = regex.exec(url)) {
+		params[match[1]] = match[2];
+	}
+	return params;
 }
