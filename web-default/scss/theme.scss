@@ -1248,6 +1248,16 @@ form .g-recaptcha {
     width: 200px;
 }
 
+.opening-hours {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.header-panel .opening-hours {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
 .header-panel, .header-panel-left {
     position: absolute;
     right: 0;
