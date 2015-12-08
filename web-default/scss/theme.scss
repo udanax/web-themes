@@ -1249,13 +1249,13 @@ form .g-recaptcha {
 }
 
 .opening-hours .active {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
 }
 
 .header-panel .opening-hours .active {
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
 }
 
 .header-panel, .header-panel-left {
