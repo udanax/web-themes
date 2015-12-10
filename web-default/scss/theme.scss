@@ -194,6 +194,11 @@ img {
         max-height: 250px;
         -webkit-filter: drop-shadow( -2px -2px 30px #fff );
         filter: drop-shadow( -2px -2px 30px #fff );
+
+        &.bg-white {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+        }
     }
 }
 @media screen and (max-width: 500px) {
