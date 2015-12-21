@@ -1315,26 +1315,26 @@ form .g-recaptcha {
         .top-opening th {
             width: 200px;
         }
+    }
+}
 
-        ul.socials {
-            list-style-type: none;
-            font-size: 1.5em;
-            margin: 5px 0;
-            padding: 0;
+ul.socials {
+    list-style-type: none;
+    font-size: 1.5em;
+    margin: 5px 0;
+    padding: 0;
 
-            li {
-                display: inline-block;
+    li {
+        display: inline-block;
 
-                a i.fa {
-                    background-color: #fff;
-                    color: #000 !important;
-                    width: 1.5em;
-                    height: 1.5em;
-                    border-radius: 5px;
-                    text-align: center;
-                    line-height: 1.5em;
-                }
-            }
+        a i.fa {
+            background-color: #fff;
+            color: #000 !important;
+            width: 1.5em;
+            height: 1.5em;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 1.5em;
         }
     }
 }
