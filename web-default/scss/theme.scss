@@ -279,6 +279,7 @@ img {
 .stuckMenu {
     @include transition(all .5s);
     background: $white;
+    background: rgba(255,255,255,0.9);
 }
 .isFixed {
     left: 0;
@@ -322,7 +323,7 @@ img {
 }
 header {
     position: relative;
-    padding-top: 50px;
+    margin-top: 80px;
     margin-bottom: -40px;
 }
 
@@ -354,7 +355,7 @@ header {
     background-attachment: fixed !important;
     overflow: hidden;
     .carousel-indicators {
-        top: 530px !important;
+        top: 500px !important;
         bottom: auto !important;
     }
 }
@@ -368,7 +369,7 @@ header {
     background-repeat: repeat;
     .container {
         height: 580px;
-        padding-top: 150px;
+        padding-top: 120px;
     }
 }
 .heading {
@@ -940,7 +941,7 @@ blockquote {
 .language-box {
     position: fixed;
     left: 80px;
-    background-color: #fff;
+    background: #fff;
     color: #000;
     font-weight: bold;
 
@@ -1104,8 +1105,7 @@ blockquote {
         height: 300px;
     }
     .parallax-pattern-overlay .container {
-        height: 280px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
     .not-slim {
         display: none;
@@ -1284,7 +1284,6 @@ form .g-recaptcha {
     top: 0;
     height: 100%;
     width: 30%;
-    padding-top: 80px;
     overflow: hidden;
 
     a:not(.btn) {
