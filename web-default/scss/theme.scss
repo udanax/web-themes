@@ -250,14 +250,17 @@ img {
     float: none;
     padding-left: 0px;
 }
+
 @media screen and (min-width: 991px) {
     .navbar-nav {
         padding-left: 80px;
     }
 }
+
 .navbar-toggle {
     margin-top: 14px;
 }
+
 .navbar-wrapper {
     margin-top: 0;
     height: 80px;
@@ -267,20 +270,24 @@ img {
         padding: 0;
     }
 }
+
 .navbar-collapse {
     padding: 0;
     &.in {
         max-height: 100%;
     }
 }
+
 .hideClass, .hidden {
     display: none;
 }
+
 .stuckMenu {
     @include transition(all .5s);
     background: $white;
     background: rgba(255,255,255,0.9);
 }
+
 .isFixed {
     left: 0;
     width: 100%;
@@ -302,9 +309,11 @@ img {
         }
     }
 }
+
 .collapse {
     display: block !important;
 }
+
 @media(max-width: 655px) {
     .collapse {
         background: $color_mine_shaft_approx;
@@ -321,6 +330,7 @@ img {
         display: none;
     }
 }
+
 header {
     position: relative;
     margin-top: 80px;
@@ -1547,4 +1557,10 @@ li.submenu-group:hover {
 
 .area-block h4 {
     color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        margin-top: 50px;
+    }
 }
