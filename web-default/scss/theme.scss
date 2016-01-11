@@ -986,7 +986,6 @@ blockquote {
 .search-box {
     left: 150px;
     font-size: 2em;
-    margin-top: -0.25em;
 }
 
 .reservation-box {
@@ -1009,6 +1008,18 @@ blockquote {
 
     .wrap {
         padding: 20px 30px;
+    }
+}
+
+.reservation-box, .language-box {
+    .wrap {
+        padding: 20px 30px;
+    }
+}
+
+.search-box {
+    .wrap {
+        padding: 15px 10px 11px 10px;
     }
 }
 
@@ -1091,7 +1102,7 @@ blockquote {
         height: 80px;
 
         .wrap {
-            padding: 20px 10px;
+            padding: 15px 10px 11px 10px;
         }
     }
 }
