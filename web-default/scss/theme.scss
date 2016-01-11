@@ -958,7 +958,7 @@ blockquote {
         color: $white;
     }
 }
-.language-box {
+.language-box, .search-box {
     position: fixed;
     left: 80px;
     background: #fff;
@@ -982,6 +982,11 @@ blockquote {
         }
     }
 }
+
+.search-box {
+    left: 200px;
+}
+
 .reservation-box {
     position: fixed;
     right: 0;
@@ -994,7 +999,7 @@ blockquote {
     }
 }
 
-.reservation-box, .language-box {
+.reservation-box, .language-box, .search-box {
     z-index: 1000;
     top: 80px;
     height: 65px;
@@ -1017,7 +1022,7 @@ blockquote {
         z-index: 2000;
     }
 
-    .language-box {
+    .language-box, .search-box {
         top: 0;
         background: transparent;
         z-index: 2110;
@@ -1062,7 +1067,7 @@ blockquote {
 }
 
 @media screen and (min-width: 1220px) {
-    .language-box, .reservation-box {
+    .language-box, .reservation-box, .search-box {
         top: 0;
         height: 80px;
 
