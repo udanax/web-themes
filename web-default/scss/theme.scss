@@ -984,7 +984,9 @@ blockquote {
 }
 
 .search-box {
-    left: 200px;
+    left: 150px;
+    font-size: 2em;
+    margin-top: -0.4em;
 }
 
 .reservation-box {
@@ -1028,9 +1030,17 @@ blockquote {
         z-index: 2110;
         height: 54px;
         color: #fff;
-
+    }
+    
+    .language-box {
         .wrap {
             padding: 12px 15px;
+        }
+    }
+    
+    .search-box {
+        .wrap {
+            padding: 12px 5px;
         }
     }
 
@@ -1067,12 +1077,21 @@ blockquote {
 }
 
 @media screen and (min-width: 1220px) {
-    .language-box, .reservation-box, .search-box {
+    .language-box, .reservation-box {
         top: 0;
         height: 80px;
 
         .wrap {
             padding: 25px 20px;
+        }
+    }
+
+    .search-box {
+        top: 0;
+        height: 80px;
+
+        .wrap {
+            padding: 20px 5px;
         }
     }
 }
