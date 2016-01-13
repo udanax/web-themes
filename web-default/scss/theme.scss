@@ -1045,13 +1045,13 @@ blockquote {
         height: 54px;
         color: #fff;
     }
-    
+
     .language-box {
         .wrap {
             padding: 12px 15px;
         }
     }
-    
+
     .search-box {
         .wrap {
             padding: 12px 5px;
@@ -1611,6 +1611,18 @@ li.submenu-group:hover {
     content: " *";
     color: #ff0000;
     font-size: 150%;
+}
+
+.eu-cookies {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #222;
+    z-index: 10000;
+    padding: 5px 0;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 767px) {
