@@ -1153,7 +1153,7 @@ blockquote {
     }
 }
 
-@media screen and(max-height: 580px) {
+@media screen and (max-height: 580px), screen and (max-width: 767px) {
     img {
         &#site-title {
             max-height: 150px;
