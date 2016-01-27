@@ -1178,6 +1178,7 @@ nav {
     width: 80px;
     z-index: 1001;
     background-color: #212121;
+    background: #212121 url('../img/nav_bg.jpg') repeat-y;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1226,7 +1227,7 @@ nav {
             }
         }
         > li.active a {
-            background: $color_tundora_approx;
+            background: #ddd;
         }
         &#main-pages li {
             &.main-page a span {
