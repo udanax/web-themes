@@ -404,16 +404,6 @@ header {
         line-height: 1.7;
     }
 }
-.heading-panorama {
-    h2 {
-        color: #fff;
-        text-shadow: 5px 5px 5px #222;
-        font-size: 5em;
-    }
-    h2::first-letter {
-        color: #fff;
-    }
-}
 .papers {
     @extend %extend_2;
     position: relative;
@@ -1257,6 +1247,16 @@ nav {
     }
     .alert-box {
         left: 80px;
+    }
+    .heading-panorama {
+        h2 {
+            color: #fff;
+            text-shadow: 5px 5px 5px #222;
+            font-size: 5em;
+        }
+        h2::first-letter {
+            color: #fff;
+        }
     }
 }
 .navwrapper .container {
