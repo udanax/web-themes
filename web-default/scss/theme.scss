@@ -1379,6 +1379,15 @@ form .g-recaptcha {
             width: 200px;
         }
     }
+
+    .img-thumbnail {
+        background-color: transparent;
+        border-color: transparent;
+
+        img {
+            border-radius: 10px;
+        }
+    }
 }
 
 ul.socials {
