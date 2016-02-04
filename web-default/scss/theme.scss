@@ -1121,19 +1121,32 @@ blockquote {
 }
 .alert-success {
     color: $white;
-    background-color: $color_apple_approx;
+    background-color: rgb(76, 175, 80);
+    background-color: rgba(76, 175, 80, 0.85);
+    a {
+        color: $white;
+    }
 }
 .alert-danger {
     color: $white;
-    background-color: $color_thunderbird_approx;
+    background-color: rgb(183, 28, 28);
+    background-color: rgba(183, 28, 28, 0.85);
+    a {
+        color: $white;
+    }
 }
 .alert-warning {
     color: $color_log_cabin_approx;
-    background-color: $color_golden_fizz_approx;
+    background-color: rgb(255,235,59);
+    background-color: rgba(255,235,59,0.85);
 }
 .alert-info {
     color: $white;
-    background-color: $color_cerulean_approx;
+    background-color: rgb(3, 169, 244);
+    background-color: rgba(3, 169, 244, 0.85);
+    a {
+        color: $white;
+    }
 }
 .video-area {
     width: 100%;
