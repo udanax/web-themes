@@ -934,7 +934,7 @@ blockquote {
             .carousel-caption {
                 padding-bottom: 0;
             }
-            
+
             /* For back compatibility - may be removed in the future */
             img {
                 min-height: 100%;
@@ -1655,6 +1655,36 @@ li.submenu-group:hover {
     z-index: 10000;
     padding: 5px 0;
     font-size: 0.8em;
+}
+
+.comp-loading {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+
+    .comp-loading-message {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #222;
+        padding: 15px 25px;
+        margin-top: 100px;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 25px;
+        border-radius: 5px;
+
+        .comp-loading-spinner {
+            height: 20px;
+            margin-top: -2px;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
