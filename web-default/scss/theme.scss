@@ -1639,8 +1639,8 @@ li.submenu-group:hover {
     color: #fff;
 }
 
-.required-red tr.required th:after{
-    content: " *";
+.required-red tr.required th:before{
+    content: "*";
     color: #ff0000;
     font-size: 150%;
 }
