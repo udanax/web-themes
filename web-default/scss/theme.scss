@@ -1709,3 +1709,8 @@ li.submenu-group:hover {
         display: none;
     }
 }
+
+input[type=checkbox], input[type=radio] {
+    margin-right: 10px;
+    margin-left: 10px;
+}
