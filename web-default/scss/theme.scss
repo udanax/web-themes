@@ -1722,3 +1722,26 @@ input[type=checkbox], input[type=radio] {
     margin-right: 10px;
     margin-left: 10px;
 }
+
+#thepay-methods-div-content ul li a {
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    padding: 10px !important;
+}
+
+#thepay-methods-div-content ul li a:hover {
+    border-color: #03a9f4 !important;
+}
+
+#thepay-methods-div-content ul li a img {
+    border: 0 !important;
+}
+
+#thepay-methods-div-content ul li a:hover span {
+    color: #000 !important;
+}
+
+#thepay-methods-div-content ul li a span {
+    text-decoration: none;
+    font-weight: bold;
+}
