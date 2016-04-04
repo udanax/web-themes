@@ -1415,6 +1415,51 @@ form .g-recaptcha {
     }
 }
 
+#header-left-carousel {
+    .carousel-indicators {
+        top: 10px;
+        bottom: auto;
+
+        li {
+            border-color: #9e083f;
+        }
+
+        .active {
+            background-color: #9e083f;
+        }
+    }
+
+    .carousel-inner {
+        height: 570px;
+    }
+
+    .carousel-caption {
+        right: 0;
+        left: 0;
+        padding-bottom: 5px;
+    }
+
+    .item {
+        height: 570px;
+        white-space: nowrap;
+        text-align: center;
+
+        .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        img {
+            margin: 0 auto;
+            display: inline-block;
+            vertical-align: middle;
+            max-height: 570px;
+            max-width: 100%;
+        }
+    }
+}
+
 ul.socials {
     list-style-type: none;
     font-size: 1.5em;
