@@ -450,17 +450,24 @@ header {
     font-weight: bold;
 }
 
-.papers-simple {
-    margin-bottom: 20px;
-    margin-top: 20px;
+.papers {
+    &-simple {
+        margin-bottom: 20px;
+        margin-top: 20px;
 
-    &:before, &:after {
-        display: none;
+        &:before, &:after {
+            display: none;
+        }
     }
-}
 
-.papers-normal {
-    font-size: 1em;
+    &-normal {
+        font-size: 1em;
+    }
+
+    &-full {
+        margin: 0;
+        width: 100%
+    }
 }
 
 .restmenuwrap {
