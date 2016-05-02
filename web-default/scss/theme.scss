@@ -1209,7 +1209,8 @@ nav {
     display: block;
     width: 80px;
     z-index: 1001;
-    background: #212121 url('../img/nav_bg.jpg') repeat-y;
+    background: #000;
+    box-shadow: 3px 0px 3px #000;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1258,7 +1259,8 @@ nav {
             }
         }
         > li.active a {
-            background: #ddd;
+            background: #eee;
+            border-radius: 2px;
         }
         &#main-pages li {
             &.main-page a span {
