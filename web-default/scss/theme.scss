@@ -1018,6 +1018,20 @@ blockquote {
     }
 }
 
+.reservation-box-restu {
+    background-color: #1fc36a;
+
+    &-logo {
+        position: relative;
+        top: 2px;
+        width: 25px;
+        height: 25px;
+        background: url('https://www.restu.cz/css/resbtn/restu-widget-logo.png') no-repeat;
+        display: inline-block;
+        background-size: 100% 100%;
+    }
+}
+
 .reservation-box, .language-box, .search-box {
     z-index: 1000;
     top: 80px;
