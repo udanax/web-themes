@@ -1006,11 +1006,14 @@ blockquote {
     font-size: 2em;
 }
 
-.reservation-box {
+.reservation-box, .reservation-box-restu {
     position: fixed;
-    right: 0;
-    background-color: #2c691f;
+    right: 0; 
     z-index: 100;
+}
+
+.reservation-box {
+    background-color: #2c691f;
     color: #fff;
 
     .wrap {
@@ -1019,10 +1022,7 @@ blockquote {
 }
 
 .reservation-box-restu {
-    position: fixed;
-    right: 0;
     background-color: #1fc36a;
-    z-index: 100;
     color: #fff;
 
     &-logo {
@@ -1036,18 +1036,12 @@ blockquote {
     }
 }
 
-.reservation-box, .language-box, .search-box {
+.reservation-box, .language-box, .search-box, .reservation-box-restu {
     z-index: 1000;
     top: 80px;
     height: 65px;
     cursor: pointer;
 
-    .wrap {
-        padding: 20px 30px;
-    }
-}
-
-.reservation-box, .language-box {
     .wrap {
         padding: 20px 30px;
     }
@@ -1094,7 +1088,7 @@ blockquote {
         }
     }
 
-    .reservation-box {
+    .reservation-box, .reservation-box-restu {
         top: 54px;
         z-index: 2100;
         height: 54px;
