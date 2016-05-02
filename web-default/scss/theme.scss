@@ -1019,7 +1019,11 @@ blockquote {
 }
 
 .reservation-box-restu {
+    position: fixed;
+    right: 0;
     background-color: #1fc36a;
+    z-index: 100;
+    color: #fff;
 
     &-logo {
         position: relative;
