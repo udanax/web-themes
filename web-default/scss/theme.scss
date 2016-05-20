@@ -301,7 +301,7 @@ img {
             color: $white !important;
         }
     }
-    .navbar.navbar-inverse.navbar-static-top a {
+    .navbar.navbar-inverse.navbar-static-top .nav a {
         color: $white;
         &:hover {
             background: $color_bright_red_approx;
@@ -321,7 +321,7 @@ img {
     .navbar-wrapper {
         height: 45px;
     }
-    .navbar.navbar-inverse.navbar-static-top a {
+    .navbar.navbar-inverse.navbar-static-top .nav a {
         padding: 15px 16px;
         line-height: 15px;
         font-size: 13px;
@@ -1309,7 +1309,7 @@ nav {
     padding: 0;
     width: auto;
 }
-.navbar.navbar-inverse.navbar-static-top {
+.navbar.navbar-inverse.navbar-static-top .nav {
     margin: 0 auto;
     background: none;
     color: $color_ghost_approx;
@@ -1596,7 +1596,7 @@ li.submenu-group:hover {
     background-color: #fff;
 }
 
-.navbar.navbar-inverse.navbar-static-top .submenu a {
+.navbar.navbar-inverse.navbar-static-top .nav .submenu a {
     padding: 5px 10px;
     text-align: left;
     display: block;
