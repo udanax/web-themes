@@ -875,11 +875,12 @@ textarea {
     margin-left: -30px;
     top: -35px;
     left: 50%;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
     @include border-radius(50%);
 
     i {
         color: $color_bright_red_approx;
-        line-height: 70px;
+        line-height: 60px;
     }
 }
 blockquote {
