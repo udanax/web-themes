@@ -1856,7 +1856,7 @@ input[type=checkbox], input[type=radio] {
     .flyers-carousel .carousel-control {
         color: #000;
     }
-    
+
     .flyers-carousel .carousel-indicators li {
         border-color: #222;
     }
@@ -1872,6 +1872,16 @@ input[type=checkbox], input[type=radio] {
     text-shadow: 2px 2px 2px #fff !important;
 }
 
+.s-style-highlight-dark h2 {
+    color: #fff;
+    text-shadow: 1px 1px #222 !important;
+
+    &::first-letter {
+        color: #fff;
+        text-shadow: 1px 1px #222 !important;
+    }
+}
+
 h2.intro-sub {
     text-shadow: 0 0 0;
     text-transform: none;
@@ -1885,5 +1895,47 @@ h2.intro-sub {
     font-family: Arial;
     margin: 40px 0;
     font-size: 25px;
+    color: #fff;
+}
+
+.service-list-item {
+    padding: 25px 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(168,168,168,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(168,168,168,1);
+    box-shadow: 4px 4px 5px 0px rgba(168,168,168,1);
+}
+
+.s-style-highlight-dark {
+    .service-list-item {
+        -webkit-box-shadow: 4px 4px 5px 0px #222;
+        -moz-box-shadow: 4px 4px 5px 0px #222;
+        box-shadow: 4px 4px 5px 0px #222;
+    }
+}
+
+.service-list-item-img-wrap {
+    text-align: center;
+}
+
+.service-list-item-img {
+    margin: 0 auto;
+}
+
+.service-list-item p {
+    color: #000;
+}
+
+.service-list-item h3 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.service-list-item-dark h3 {
+    color: #fff;
+}
+
+.service-list-item-dark p {
     color: #fff;
 }
