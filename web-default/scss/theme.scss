@@ -1852,6 +1852,16 @@ input[type=checkbox], input[type=radio] {
     }
 }
 
+.s-style-img-light {
+    .flyers-carousel .carousel-control {
+        color: #000;
+    }
+    
+    .flyers-carousel .carousel-indicators li {
+        border-color: #222;
+    }
+}
+
 .h2-highlight, .s-style-img h2 {
     color: #f3af00 !important;
     text-shadow: 1px 1px #868686 !important;
