@@ -156,28 +156,50 @@ iframe {
 .playball {
     font-family: $font_2, $font_3;
 }
+
 h1 {
     @extend %extend_1;
 }
+
 h2 {
     @extend %extend_1;
 }
+
 h3 {
     @extend %extend_1;
 }
+
 h4 {
     @extend %extend_1;
 }
+
 h5 {
     @extend %extend_1;
 }
+
 h6 {
     @extend %extend_1;
 }
+
+h2, .heading h2 {
+    font-family: Arial;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    color: #42423b;
+    text-shadow: 1px 1px #f0f0f0;
+    margin: 0 0 35px 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
 .w960 {
     max-width: 960px;
     margin: 0 auto;
 }
+
 a {
     color: $color_bright_red_approx;
     text-decoration: none;
@@ -1816,20 +1838,6 @@ input[type=checkbox], input[type=radio] {
 
 .alert-sm {
     font-size: 1.2em;
-}
-
-h2, .heading h2 {
-    font-family: Arial;
-    font-weight: 800;
-    font-style: normal;
-    text-align: center;
-    font-size: 50px;
-    color: #42423b;
-    text-shadow: 1px 1px #f0f0f0;
-    margin: 0 0 35px 0;
-    padding: 0;
-    text-transform: uppercase;
-    line-height: 60px;
 }
 
 .s-style-highlight {
