@@ -410,16 +410,15 @@ header {
     max-width: 960px;
     margin: 0 auto;
     padding-top: 45px;
+
     h2 {
         font-weight: 700;
         font-family: $font_5, $font_6;
         font-size: 35px;
         color: $color_mine_shaft_approx;
         margin: 0;
+        margin-bottom: 10px;
         padding: 5px;
-    }
-    h2::first-letter {
-        color: $color_bright_red_approx;
     }
     h3 {
         font-size: 16px;
@@ -1322,7 +1321,8 @@ nav {
         h2 {
             color: #fff;
             text-shadow: 5px 5px 5px #222;
-            font-size: 5em;
+            font-size: 4em;
+            line-height: initial;
         }
         h2::first-letter {
             color: #fff !important;
@@ -1855,14 +1855,6 @@ input[type=checkbox], input[type=radio] {
 .h2-highlight, .s-style-img h2 {
     color: #f3af00 !important;
     text-shadow: 1px 1px #868686 !important;
-}
-
-.heading h2 {
-    margin-bottom: 10px;
-}
-
-.heading h2::first-letter {
-    color: inherit;
 }
 
 h2.intro-sub {
