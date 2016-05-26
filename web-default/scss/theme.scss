@@ -1817,3 +1817,58 @@ input[type=checkbox], input[type=radio] {
 .alert-sm {
     font-size: 1.2em;
 }
+
+h2, .heading h2 {
+    font-family: Arial;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    color: #42423b;
+    text-shadow: 1px 1px #f0f0f0;
+    margin: 0 0 35px 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.s-style-highlight {
+    background-color: #EFEFEF;
+    box-shadow: 2px 2px 10px #42423b;
+}
+
+.s-style-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.h2-highlight, .s-style-img h2 {
+    color: #f3af00 !important;
+    text-shadow: 1px 1px #868686 !important;
+}
+
+.heading h2 {
+    margin-bottom: 10px;
+}
+
+.heading h2::first-letter {
+    color: inherit;
+}
+
+h2.intro-sub {
+    text-shadow: 0 0 0;
+    text-transform: none;
+}
+
+.dividerline {
+    display: none;
+}
+
+.subheading-wh, .subheading-wh p {
+    font-family: Arial;
+    margin: 40px 0;
+    font-size: 25px;
+    color: #fff;
+}
