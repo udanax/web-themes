@@ -1873,11 +1873,11 @@ input[type=checkbox], input[type=radio] {
 }
 
 .s-style-highlight-dark h2 {
-    color: #fff;
+    color: #fff !important;
     text-shadow: 1px 1px #222 !important;
 
     &::first-letter {
-        color: #fff;
+        color: #fff !important;
         text-shadow: 1px 1px #222 !important;
     }
 }
