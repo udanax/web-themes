@@ -1841,6 +1841,14 @@ input[type=checkbox], input[type=radio] {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+
+    .flyers-carousel .carousel-control {
+        color: #fff;
+    }
+
+    .flyers-carousel .carousel-indicators li {
+        border-color: #f0f0f0;
+    }
 }
 
 .h2-highlight, .s-style-img h2 {
