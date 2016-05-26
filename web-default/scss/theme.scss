@@ -923,6 +923,7 @@ blockquote {
     position: fixed;
     z-index: 950;
     top: 80px;
+    bottom: initial;
     left: 0;
     right: 0;
     .close {
@@ -1059,7 +1060,7 @@ blockquote {
 
 @media screen and (max-width: 1219px) {
     .alert-box {
-        top: auto;
+        top: initial;
         bottom: 0px;
     }
 }
