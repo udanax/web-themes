@@ -1857,6 +1857,10 @@ input[type=checkbox], input[type=radio] {
     }
 }
 
+.heading-line h2, .heading-line h2::first-letter {
+    color: #fff !important;
+}
+
 .s-style-img-light {
     .flyers-carousel .carousel-control {
         color: #000;
