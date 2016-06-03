@@ -1857,7 +1857,7 @@ input[type=checkbox], input[type=radio] {
     }
 }
 
-.heading-line h2, .heading-line h2::first-letter {
+.s-style-img .heading-line h2, .s-style-img .heading-line h2::first-letter {
     color: #fff !important;
 }
 
@@ -1951,5 +1951,10 @@ h2.intro-sub {
 
     header {
         margin-top: 0;
+    }
+
+    .alert-box {
+        top: 0;
+        left: 0;
     }
 }
