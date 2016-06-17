@@ -1311,6 +1311,7 @@ nav {
 
 nav:hover {
     left: 0;
+    transition: 0.2s ease-in;
 }
 
 @media screen and(min-width: 992px) {
