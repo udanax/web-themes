@@ -994,7 +994,7 @@ blockquote {
 }
 .language-box, .search-box {
     position: fixed;
-    left: 80px;
+    left: 70px;
     background: #fff;
     color: #000;
     font-weight: bold;
@@ -1244,6 +1244,7 @@ nav {
     position: fixed;
     top: 0;
     bottom: 0;
+    left: -10px;
     border-radius: 0 5px 5px 0;
 
     .svg {
@@ -1308,12 +1309,16 @@ nav {
     }
 }
 
+nav:hover {
+    left: 0;
+}
+
 @media screen and(min-width: 992px) {
     #wrapper {
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .alert-box {
-        left: 80px;
+        left: 70px;
     }
     .heading-panorama {
         h2 {
