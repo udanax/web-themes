@@ -1602,30 +1602,30 @@ ul.socials {
 
 .submenu li {
     background-color: #fff;
-    padding: 5px 5px;
+    padding: 0;
     border-bottom: 1px solid #ccc;
-}
 
-.submenu li:hover {
-    background-color: #f0f0f0;
-}
+    &:hover {
+        background-color: #f0f0f0;
+    }
 
-.submenu li a {
-    color: #000;
+    a {
+        color: #000;
+    }
 }
 
 li.submenu-group {
     background-color: #fff;
     border-bottom: 0;
     color: #900700;
-}
 
-li.submenu-group:hover {
-    background-color: #fff;
+    &:hover {
+        background-color: #fff;
+    }
 }
 
 .navbar.navbar-inverse.navbar-static-top .nav .submenu a {
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-align: left;
     display: block;
 }
