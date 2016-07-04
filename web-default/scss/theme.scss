@@ -829,6 +829,7 @@ textarea {
         text-align: center;
         list-style-type: none;
         padding-left: 0;
+        line-height: 3.5em;
         li {
             display: inline-block;
             text-align: center;
@@ -889,7 +890,7 @@ textarea {
     margin-left: -30px;
     top: -35px;
     left: 50%;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
     @include border-radius(50%);
 
     i {
