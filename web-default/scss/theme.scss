@@ -241,7 +241,21 @@ img {
 }
 
 .slicknav_menu {
-    display:none;
+    display: none;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.slicknav_nav {
+    .submenu li a {
+        margin: 0;
+        padding: 10px 15px;
+
+        &:hover {
+            border-radius: 0;
+            background: inherit;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
