@@ -1649,7 +1649,7 @@ li.submenu-group {
     display: block;
 }
 
-.menuItem-flag {
+.navArea .menuItem-flag {
     position: absolute;
     bottom: -20px;
     left: 0;
@@ -1658,8 +1658,12 @@ li.submenu-group {
     fill: #ae0600;
 }
 
-.menuItem-main a {
-    background-color: #ae0600;
+.navArea .menuItem-main a {
+    background-color: #ae0600 !important;
+}
+
+.navArea .menuItem-text-mobile-only {
+    display: none;
 }
 
 // submenu - end
