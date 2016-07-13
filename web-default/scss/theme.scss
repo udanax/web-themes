@@ -617,7 +617,6 @@ header {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 1500;
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
@@ -691,7 +690,8 @@ header {
             color: $color_mine_shaft_approx;
         }
     }
-    nav {
+    /* nav is only for back compatibility @deprecated */
+    nav, .slideshow-nav {
         span {
             position: fixed;
             z-index: 1000;
