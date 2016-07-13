@@ -750,16 +750,6 @@ span {
     color: $white;
     letter-spacing: 1px;
     text-align: center;
-    &:before {
-        @extend %extend_5;
-        left: 10px;
-        content: "\e603";
-    }
-    &:after {
-        @extend %extend_5;
-        right: 10px;
-        content: "\e604";
-    }
 }
 @media screen and(max-width:60em) {
     .slideshow {
