@@ -268,18 +268,19 @@ img {
     }
 }
 
-.navArea {
-}
 .navbar-header {
     display: none;
 }
+
 .nav>li>a {
     display: inline-block;
 }
+
 .navbar-nav>li {
     float: none;
     display: inline-block;
 }
+
 .navbar-nav {
     margin: 0 auto;
     text-align: center;
@@ -322,6 +323,7 @@ img {
     @include transition(all .5s);
     background: $white;
     background: rgba(255,255,255,0.9);
+    box-shadow: 1px 1px 1px 1px;
 }
 
 .isFixed {
