@@ -323,7 +323,7 @@ img {
     @include transition(all .5s);
     background: $white;
     background: rgba(255,255,255,0.9);
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 10px 0px #000;
 }
 
 .isFixed {
