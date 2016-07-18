@@ -5,9 +5,23 @@
     background-color: $color_template_secondary;
 }
 
+blockquote {
+    &:before {
+        color: $color_template_primary;
+    }
+
+    cite {
+        color: $color_template_primary;
+    }
+}
+
 .footer {
     background: $color_template_primary;
     color: $color_template_primary_font;
+}
+
+.gototop i {
+    color: $color_template_primary;
 }
 
 .navArea {
