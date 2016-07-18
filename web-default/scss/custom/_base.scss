@@ -47,6 +47,10 @@ blockquote {
     color: $color_template_secondary_font;
 }
 
+nav ul>li.active a {
+    background: $color_template_secondary;
+}
+
 .list-bange {
     background-color: $color_template_primary;
 }
