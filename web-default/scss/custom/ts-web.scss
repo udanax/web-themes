@@ -1,5 +1,8 @@
-@import "compass/css3";
-@import "compass/utilities";
+@import "default-vars";
+
+$color_template_primary: #222;
+
+@import "base";
 
 .top-panel {
     margin-bottom: 10px;
@@ -72,11 +75,6 @@ a {
 .motto {
     color: #c01d31;
     text-align: center;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .isFixed .navbar-inverse .navbar-nav>.active>a:focus, .isFixed .navbar-inverse .navbar-nav>.active>a, .isFixed .navbar-inverse .navbar-nav>.active>a:focus, .navbar.navbar-inverse.navbar-static-top a:hover, .isFixed .navbar.navbar-inverse.navbar-static-top a:hover, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-    background: #222;
-    color: #fff;
 }
 
 .navbar.navbar-inverse.navbar-static-top a {

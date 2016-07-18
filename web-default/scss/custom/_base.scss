@@ -1,0 +1,14 @@
+@import "compass/css3";
+@import "compass/utilities";
+
+.navbar-inverse .navbar-nav>.active>a,
+.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
+.isFixed .navbar-inverse .navbar-nav>.active>a,
+.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
+.navbar.navbar-inverse.navbar-static-top a:hover,
+.isFixed .navbar.navbar-inverse.navbar-static-top a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background: $color_template_primary;
+    color: $color_template_primary_font;
+}
