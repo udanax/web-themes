@@ -1,16 +1,9 @@
 @import "default-vars";
 
-$color_template_primary: #004cab;
+$color_template_primary: #ae0600;
+$color_template_secondary: #004cab;
 
 @import "base";
-
-.reservation-box {
-    background: #ae0600;
-}
-
-.reservation-box a {
-    color: #fff;
-}
 
 .career-form-desc {
     margin: 5px 10px 20px 10px !important;
@@ -144,10 +137,6 @@ $color_template_primary: #004cab;
     background-color: #004cab !important;
 }
 
-.area-block {
-    background-color: #004cab;
-}
-
 .s-style-img h2 {
     color: #fff !important;
     text-shadow: 2px 2px #000000 !important;
@@ -164,16 +153,4 @@ $color_template_primary: #004cab;
 .career-request-form table {
     margin: 0 auto;
     min-width: 500px;
-}
-
-.slicknav_btn {
-    background-color: #ae0600;
-}
-
-.navArea .menuItem-main a {
-    background-color: #ae0600 !important;
-}
-
-.navArea .menuItem-flag {
-    fill: #ae0600;
 }

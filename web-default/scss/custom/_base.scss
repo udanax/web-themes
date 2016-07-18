@@ -1,6 +1,24 @@
 @import "compass/css3";
 @import "compass/utilities";
 
+.area-block {
+    background-color: $color_template_secondary;
+}
+
+.footer {
+    background: $color_template_primary;
+}
+
+.navArea {
+    .menuItem-main a {
+        background-color: $color_template_primary !important;
+    }
+
+    .menuItem-flag {
+        fill: $color_template_primary;
+    }
+}
+
 .navbar-inverse .navbar-nav>.active>a,
 .isFixed .navbar-inverse .navbar-nav>.active>a:focus,
 .isFixed .navbar-inverse .navbar-nav>.active>a,
@@ -9,6 +27,18 @@
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover,
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
+    background: $color_template_secondary;
+    color: $color_template_secondary_font;
+}
+
+.reservation-box {
     background: $color_template_primary;
-    color: $color_template_primary_font;
+
+    a {
+        color: $color_template_primary_font;
+    }
+}
+
+.slicknav_btn {
+    background-color: $color_template_primary;
 }
