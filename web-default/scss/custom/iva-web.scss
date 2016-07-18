@@ -1,21 +1,9 @@
 @import "default-vars";
 
-$color_template_primary: #579900;
-$color_template_secondary: #900700;
+$color_template_primary: #900700;
+$color_template_secondary: #579900;
 
 @import "base";
-
-.navbar-inverse .navbar-nav>.active>a,
-.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
-.isFixed .navbar-inverse .navbar-nav>.active>a,
-.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
-.navbar.navbar-inverse.navbar-static-top a:hover,
-.isFixed .navbar.navbar-inverse.navbar-static-top a:hover,
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
-    background: #579900;
-    color: #fff !important;
-}
 
 .navbar.navbar-inverse.navbar-static-top a {
     color: #fff;
@@ -27,10 +15,6 @@ $color_template_secondary: #900700;
 
 .grid-gallery figcaption h3 {
     color: #333;
-}
-
-.footer {
-    background: #900700;
 }
 
 .heading h2::first-letter {
@@ -60,10 +44,6 @@ a {
     margin-right: 40px;
 }
 
-.stuckMenu, .language-box {
-    background: #900700;
-}
-
 .language-box {
     color: #fff;
 }
@@ -78,12 +58,4 @@ a {
 
 .intro-box {
     background-color: #900700 !important;
-}
-
-.area-block {
-    background-color: #579900;
-}
-
-.slicknav_btn {
-    background-color: #900700;
 }
