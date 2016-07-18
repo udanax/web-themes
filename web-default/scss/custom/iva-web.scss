@@ -1,0 +1,89 @@
+@import "default-vars";
+
+$color_template_primary: #579900;
+$color_template_secondary: #900700;
+
+@import "base";
+
+.navbar-inverse .navbar-nav>.active>a,
+.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
+.isFixed .navbar-inverse .navbar-nav>.active>a,
+.isFixed .navbar-inverse .navbar-nav>.active>a:focus,
+.navbar.navbar-inverse.navbar-static-top a:hover,
+.isFixed .navbar.navbar-inverse.navbar-static-top a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background: #579900;
+    color: #fff !important;
+}
+
+.navbar.navbar-inverse.navbar-static-top a {
+    color: #fff;
+}
+
+.grid figcaption {
+    background: transparent;
+}
+
+.grid-gallery figcaption h3 {
+    color: #333;
+}
+
+.footer {
+    background: #900700;
+}
+
+.heading h2::first-letter {
+    color: #900700;
+}
+
+.btn-danger {
+    background-color: #9e083f;
+    border-color: #9e083f;
+}
+
+.btn-danger:hover {
+    background-color: #870836;
+    border-color: #870836;
+}
+
+a {
+    color: #9e083f;
+}
+
+.flyers-carousel .carousel-indicators .active {
+    background-color: #9e083f;
+}
+
+.wine-thumb {
+    float: left;
+    margin-right: 40px;
+}
+
+.stuckMenu, .language-box {
+    background: #900700;
+}
+
+.language-box {
+    color: #fff;
+}
+
+.submenu li a {
+    color: #000 !important;
+}
+
+.papers .btn {
+    white-space: normal;
+}
+
+.intro-box {
+    background-color: #900700 !important;
+}
+
+.area-block {
+    background-color: #579900;
+}
+
+.slicknav_btn {
+    background-color: #900700;
+}
