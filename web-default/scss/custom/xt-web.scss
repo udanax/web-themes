@@ -1,0 +1,55 @@
+@import "default-vars";
+
+$color_template_primary: #ae0600;
+$color_template_secondary: #ff5722;
+
+@import "base";
+
+
+.heading h2::first-letter {
+    color: #FF5722;
+}
+
+.flyers-carousel .carousel-indicators .active {
+    background-color: #FF5722;
+}
+
+.login-box:hover {
+    background: #FF5722;
+}
+
+.contact.submit:hover {
+    background: #FF5722;
+}
+
+.reservation-box {
+    background-color: #ae0600;
+}
+
+.reservation-box a {
+    color: #fff;
+}
+
+.intro-box {
+    background-color: #FF5722 !important;
+}
+
+.s-style-highlight-dark {
+    background-color: #FF5722;
+}
+
+.s-style-img h2 {
+    color: #fff !important;
+}
+
+.s-style-img h2::first-letter {
+    color: #fff !important; 
+}
+
+#header-left-carousel .carousel-indicators .active {
+    background-color: #ae0600;
+}
+
+#header-left-carousel .carousel-indicators li {
+    border-color: #ae0600;
+}
