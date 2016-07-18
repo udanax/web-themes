@@ -1,6 +1,7 @@
 @import "default-vars";
 
-$color_template_primary: #222;
+$color_template_primary: #00a1e1;
+$color_template_secondary: #222;
 
 @import "base";
 
@@ -14,7 +15,6 @@ $color_template_primary: #222;
 }
 
 .footer {
-    background-color: #272727;
     color: #f0f0f0;
     padding: 20px 0;
 }
