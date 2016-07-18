@@ -1,0 +1,90 @@
+@import "default-vars";
+
+$color_template_primary: #792140;
+$color_template_secondary: #333333;
+
+@import "base";
+
+.grid figcaption {
+    background: transparent;
+}
+
+.grid-gallery figcaption h3 {
+    color: #333;
+}
+
+.heading h2::first-letter {
+    color: #792140;
+}
+
+.btn-danger {
+    background-color: #792140;
+    border-color: #792140;
+}
+
+.btn-danger:hover {
+    background-color: #870836;
+    border-color: #870836;
+}
+
+a {
+    color: #792140;
+}
+
+.flyers-carousel .carousel-indicators .active {
+    background-color: #792140;
+}
+
+.wine-thumb {
+    float: left;
+    margin-right: 40px;
+}
+
+#TA_logoWidget903 {
+    display: inline-block;
+}
+
+.triptips-distance-bange {
+    width: 4em;
+    height: 4em;
+    background-color: #2c691f;
+    line-height: 1em;
+    padding-top: 1.5em;
+    float: right;
+}
+
+.cards-line img {
+    border: 0;
+}
+
+.header-panel .intro-box {
+    background-color: #792140;
+}
+
+.s-style-img h2 {
+    color: #fff !important;
+}
+
+.s-style-img h2::first-letter {
+    color: #fff !important;
+}
+
+.s-style-highlight {
+    color: #000;
+}
+
+.s-style-highlight-dark {
+    color: #fff;
+}
+
+.s-style-highlight-dark .papers {
+    color: #000;
+}
+
+.s-style-highlight-dark {
+    background-color: #792140;
+}
+
+.slicknav_btn {
+    background-color: #792140;
+}

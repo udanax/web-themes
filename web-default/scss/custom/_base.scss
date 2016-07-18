@@ -25,6 +25,12 @@ blockquote {
     color: $color_template_primary;
 }
 
+.highlighted {
+    background-color: #ffff00;
+    color: #000;
+    padding: 0 10px;
+}
+
 .navArea {
     .menuItem-main a {
         background-color: $color_template_primary !important;
