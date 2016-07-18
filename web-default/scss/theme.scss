@@ -1320,7 +1320,9 @@ nav {
         }
         > li.active a {
             background: #eee;
-            border-radius: 2px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            box-shadow: 0px 0px 5px 1px #444;
         }
         &#main-pages li {
             &.main-page a span {
@@ -1645,6 +1647,8 @@ li.submenu-group {
     background-color: #fff;
     border-bottom: 0;
     color: #900700;
+    padding-left: 10px;
+    padding-top: 5px;
 
     &:hover {
         background-color: #fff;
