@@ -1,0 +1,45 @@
+@import "default-vars";
+
+$color_template_primary: #543c18;
+$color_template_secondary: #0c4b12;
+
+@import "base";
+
+.positioncard-logo {
+    padding: 20px 5px;
+}
+.positioncard-logo img {
+    max-width: 100%;
+    width: auto;
+    height: 81px;
+}
+.maxwidth-350 {
+    max-width: 350px;
+}
+.minheight-200 {
+    min-height: 200px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.intro-box {
+    background-color: #5e8127 !important;
+}
+
+.s-style-highlight-dark {
+    background-color: #543c18;
+}
+
+.about-us-list {
+    list-style-type: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.about-us-list li {
+    margin-bottom: 10px;
+}

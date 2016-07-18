@@ -3,6 +3,7 @@
 
 .area-block {
     background-color: $color_template_secondary;
+    color: $color_template_secondary_font;
 }
 
 blockquote {
@@ -16,8 +17,8 @@ blockquote {
 }
 
 .footer {
-    background: $color_template_primary;
-    color: $color_template_primary_font;
+    background: $color_template_secondary;
+    color: $color_template_secondary_font;
 }
 
 .gototop i {
@@ -44,6 +45,10 @@ blockquote {
 .navbar-inverse .navbar-nav>li>a:focus {
     background: $color_template_secondary;
     color: $color_template_secondary_font;
+}
+
+.list-bange {
+    background-color: $color_template_primary;
 }
 
 .reservation-box {
