@@ -1,0 +1,22 @@
+@import "default-vars";
+
+$color_template_primary: #ae0600;
+$color_template_secondary: #000;
+
+@import "base";
+
+.grid figcaption {
+    background: transparent;
+}
+
+.grid-gallery figcaption h3 {
+    color: #333;
+}
+
+.flyers-carousel .carousel-indicators .active {
+    background-color: #ae0600;
+}
+
+.intro-box {
+    background-color: #ae0600 !important;
+}
