@@ -1,0 +1,96 @@
+.menu {
+    margin-top: 0;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.slicknav {
+    &_menu {
+        display: none;
+        background: rgb(0, 0, 0) !important;
+        background: rgba(0, 0, 0, 0.9)  !important;
+    }
+
+    &_nav {
+        .submenu li a {
+            margin: 0;
+            padding: 10px 15px;
+
+            &:hover {
+                border-radius: 0;
+                background: inherit;
+            }
+        }
+    }
+}
+
+.nav>li>a {
+    display: inline-block;
+}
+
+.navbar {
+    &-header {
+        display: none;
+    }
+
+    &-nav {
+        &>li {
+            float: none;
+            display: inline-block;
+        }
+
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        padding-left: 0px;
+    }
+
+    &-toggle {
+        margin-top: 14px;
+    }
+
+    &-wrapper {
+        margin-top: 0;
+        height: 80px;
+        position: relative;
+        z-index: 15;
+
+        .container {
+            padding: 0;
+        }
+    }
+
+    &-collapse {
+        padding: 0;
+
+        &.in {
+            max-height: 100%;
+        }
+    }
+}
+
+.stuckMenu {
+    @include transition(all .5s);
+    background: $white;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 1px 1px 10px 0px #000;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-wrapper {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .navbar-nav {
+        padding-left: 80px;
+    }
+}

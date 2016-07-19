@@ -1,0 +1,24 @@
+#thepay-methods-div-content {
+    ul li a {
+        border: 1px solid #ccc !important;
+        border-radius: 5px;
+        padding: 10px !important;
+
+        &:hover {
+            border-color: #03a9f4 !important;
+
+            span {
+                color: #000 !important;
+            }
+        }
+
+        img {
+            border: 0 !important;
+        }
+
+        span {
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}

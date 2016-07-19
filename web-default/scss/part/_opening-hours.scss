@@ -1,0 +1,15 @@
+.opening-hours {
+    th {
+        width: 200px;
+    }
+
+    .active {
+        border-top: 1px dotted #000;
+        border-bottom: 1px dotted #000;
+    }
+}
+
+.header-panel .opening-hours .active {
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+}

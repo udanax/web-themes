@@ -1,0 +1,79 @@
+body {
+    font-family: $font_0, $font_1;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $color_tapa_approx;
+    font-weight: 400;
+    min-width: 330px;
+}
+
+iframe {
+    border: 0;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.playball {
+    font-family: $font_2, $font_3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color_mine_shaft_approx;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+h2, .heading h2 {
+    font-family: Arial;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    color: #42423b;
+    text-shadow: 1px 1px #f0f0f0;
+    margin: 0 0 35px 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.w960 {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    color: $color_bright_red_approx;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        color: $color_bright_red_approx;
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+    &#site-title {
+        max-width: 450px;
+        max-height: 250px;
+        -webkit-filter: drop-shadow( -2px -2px 30px #fff );
+        filter: drop-shadow( -2px -2px 30px #fff );
+
+        &.bg-white {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        &#site-title {
+            max-width: 100%;
+        }
+    }
+}
