@@ -70,6 +70,11 @@ select.contact {
     }
 }
 
+input[type=checkbox], input[type=radio] {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 @media screen and(min-width:768px) {
     input.contact.col-md-6 {
         width: 48.5%;

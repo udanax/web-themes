@@ -81,4 +81,9 @@
         margin: 0;
         width: 100%
     }
+
+    &.in-img-fit img {
+        max-height: 100%;
+        max-width: 100%;
+    }
 }

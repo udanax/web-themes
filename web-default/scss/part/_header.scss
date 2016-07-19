@@ -1,0 +1,102 @@
+.header-panel, .header-panel-left {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+
+    a:not(.btn) {
+        color: #fff;
+    }
+
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        opacity: 0.5;
+    }
+
+    .in-wrap {
+        position: relative;
+        z-index: 100;
+        margin: 65px 20px 20px 20px;
+        color: #fff;
+
+        h3 {
+            color: #fff;
+            font-family: Ubuntu Condensed,Tahoma;
+        }
+
+        .top-opening th {
+            width: 200px;
+        }
+    }
+
+    .img-thumbnail {
+        background-color: transparent;
+        border-color: transparent;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+}
+
+#header-left-carousel {
+    .carousel-indicators {
+        top: 10px;
+        bottom: auto;
+
+        li {
+            border-color: #9e083f;
+        }
+
+        .active {
+            background-color: #9e083f;
+        }
+    }
+
+    .carousel-inner {
+        height: 570px;
+    }
+
+    .carousel-caption {
+        right: 0;
+        left: 0;
+        padding-bottom: 5px;
+    }
+
+    .item {
+        height: 570px;
+        white-space: nowrap;
+        text-align: center;
+
+        .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        img {
+            margin: 0 auto;
+            display: inline-block;
+            vertical-align: middle;
+            max-height: 570px;
+            max-width: 100%;
+        }
+    }
+}
+
+.header-panel-left {
+    left: 0;
+}
+
+.header-panel .intro-box {
+    background-color: #222;
+    margin: 0 -20px 10px -20px;
+    padding: 5px 20px;
+}
