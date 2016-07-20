@@ -68,7 +68,8 @@ nav ul>li.active a {
 .reservation-box {
     background: $color_template_primary;
 
-    a {
+    a, a:hover {
+        text-decoration: none;
         color: $color_template_primary_font;
     }
 }
