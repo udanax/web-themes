@@ -1,7 +1,7 @@
 @import "default-vars";
 
 $color_template_primary: #3071a9;
-$color_template_secondary: #00a1e1;
+$color_template_secondary: #2e8bdc;
 
 @import "base";
 
@@ -30,8 +30,8 @@ $color_template_secondary: #00a1e1;
 }
 
 .intro-box {
-    background: #00a1e1 !important;
-    background: rgba(48,113,169,0.9) !important;
+    background: #2e8bdc !important;
+    background: rgba(46, 139, 220,0.9) !important;
 }
 
 .intro-box-white {
