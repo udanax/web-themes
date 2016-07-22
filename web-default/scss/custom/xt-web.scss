@@ -22,14 +22,6 @@ $color_template_secondary: #333333;
     background: #FF5722;
 }
 
-.reservation-box {
-    background-color: #ae0600;
-}
-
-.reservation-box a {
-    color: #fff;
-}
-
 .intro-box {
     background-color: #FF5722 !important;
 }
@@ -44,12 +36,4 @@ $color_template_secondary: #333333;
 
 .s-style-img h2::first-letter {
     color: #fff !important; 
-}
-
-#header-left-carousel .carousel-indicators .active {
-    background-color: #ae0600;
-}
-
-#header-left-carousel .carousel-indicators li {
-    border-color: #ae0600;
 }
