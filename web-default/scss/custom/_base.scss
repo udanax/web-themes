@@ -77,3 +77,11 @@ nav ul>li.active a {
 .slicknav_btn {
     background-color: $color_template_primary;
 }
+
+#header-left-carousel .carousel-indicators .active {
+    background-color: $color_template_primary;
+}
+
+#header-left-carousel .carousel-indicators li {
+    border-color: $color_template_primary;
+}
