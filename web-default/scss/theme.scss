@@ -688,6 +688,15 @@ blockquote {
     .papers:before, .papers:after {
         display: none;
     }
+    
+    .heading-line .heading {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+    
+    .s-style-img .heading-line {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 991px) {
