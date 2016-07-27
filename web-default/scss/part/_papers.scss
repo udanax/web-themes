@@ -82,6 +82,11 @@
         width: 100%
     }
 
+    &-h-upper {
+        text-transform: uppercase;
+        font-size: 1.7em;
+    }
+
     &.in-img-fit img {
         max-height: 100%;
         max-width: 100%;
