@@ -429,6 +429,14 @@ span {
     letter-spacing: 1px;
     text-align: center;
 }
+.slideshow-actions {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: $white;
+    text-align: center;
+}
 @media screen and(max-width:60em) {
     .slideshow {
         li {
