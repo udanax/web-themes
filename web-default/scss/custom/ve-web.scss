@@ -2,6 +2,7 @@
 
 $color_template_primary: #792140;
 $color_template_secondary: #333333;
+$color_template_nav_li_active_bg: #ffffff;
 
 @import "base";
 
@@ -87,4 +88,8 @@ a {
 
 .slicknav_btn {
     background-color: #792140;
+}
+
+h1.intro {
+    display: none;
 }
