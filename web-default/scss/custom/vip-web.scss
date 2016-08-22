@@ -1,0 +1,42 @@
+@import "default-vars";
+
+$color_template_primary: #f3af00;
+$color_template_secondary: #ae0600;
+
+@import "base";
+
+.edition-box {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 25px 10px;
+    margin: 5px 15px;
+    display: inline-block;
+    background: #b69100;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+}
+
+.box-ux {
+    background: #000 url('//cdn.udanax.cz/file/un/edition/box/cx.jpg?2') repeat;
+    color: #fff;
+}
+
+.box-sf {
+    background: #58cfcc url('//cdn.udanax.cz/file/un/edition/box/sf.jpg?2') repeat;
+    color: #000;
+}
+
+.edition-logo {
+    position: absolute;
+    border: 2px solid #fff;
+    background-color: #fff;
+    bottom: 45px;
+    left: 60px;
+}
