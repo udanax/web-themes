@@ -10,7 +10,7 @@ $color_template_secondary: #f3af00;
 }
 
 .heading h2::first-letter {
-    color: #2c691f;
+    color: $color_template_primary;
 }
 
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {

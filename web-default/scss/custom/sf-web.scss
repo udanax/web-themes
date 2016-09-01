@@ -1,24 +1,16 @@
 @import "default-vars";
 
-$color_template_primary: #2e8bdc;
+$color_template_primary: #00a1e0;
 $color_template_secondary: #bfa901;
 
 @import "base";
 
-.isFixed .navbar-inverse .navbar-nav>.active>a, .isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-    background: #00a1e1;
-}
-
 .heading h2::first-letter {
-    color: #00a1e1;
-}
-
-.isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-    background: #00a1e1;
+    color: $color_template_primary;
 }
 
 .contact.submit:hover {
-    background: #00a1e1;
+    background: $color_template_primary;
 }
 
 .grid figcaption {
@@ -31,7 +23,7 @@ $color_template_secondary: #bfa901;
 
 .intro-box {
     background: #2e8bdc !important;
-    background: rgba(46, 139, 220,0.9) !important;
+    background: rgba(0, 161, 224,0.9) !important;
 }
 
 .intro-box-white {
