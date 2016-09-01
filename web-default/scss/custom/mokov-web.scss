@@ -1,0 +1,10 @@
+@import "default-vars";
+
+$color_template_primary: #00447f;
+$color_template_secondary: #222;
+
+@import "base";
+
+.heading h2::first-letter {
+    color: $color_template_primary;
+}
