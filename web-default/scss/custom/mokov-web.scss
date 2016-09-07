@@ -69,11 +69,12 @@ $color_template_secondary: #222;
 }
 .positioncard-logo {
     padding: 20px 5px;
-}
-.positioncard-logo img {
-    max-width: 100%;
-    width: auto;
-    height: 81px;
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: 81px;
+    }
 }
 .career-form h3 {
     margin-top: 20px;
@@ -100,14 +101,14 @@ $color_template_secondary: #222;
 .career-detailbox {
     color: #fff;
     padding: 30px 20px;
-}
 
-.career-detailbox h3 {
-    font-size: 1.7em;
-}
+    h3 {
+        font-size: 1.7em;
+    }
 
-.career-detailbox h4 {
-    font-size: 1.5em;
+    h4 {
+        font-size: 1.5em;
+    }
 }
 
 .career-detailbox h3, .career-detailbox h4, .career-detailbox h5 {
@@ -128,11 +129,11 @@ $color_template_secondary: #222;
     text-align: left;
     background-color: #f0f0f0;
     color: #424242;
-}
 
-.career-detailbox-req h5 {
-    font-size: 1.3em;
-    color: #424242;
+    h5 {
+        font-size: 1.3em;
+        color: #424242;
+    }
 }
 
 #wrapper {
@@ -181,4 +182,13 @@ $color_template_secondary: #222;
 
 .grid-gallery figcaption h3 {
     color: #333;
+}
+
+.banner-jobs {
+    margin-top: 40px;
+    background-color: #00447f;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: left center;
+    color: #ffffff;
 }
