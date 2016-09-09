@@ -55,7 +55,7 @@ header {
 }
 
 .navbar .submenuItem a {
-    /* background: url("//cdn.udanax.cz/file/bj/_design/footer-list-icon.png") no-repeat;
+    /* background: url("//img1.udanax.cz/file/bj/_design/footer-list-icon.png") no-repeat;
     background-position: center left 10px !important;*/
     height: auto;
     font-size: 16px;
@@ -63,7 +63,7 @@ header {
 }
 
 .navbar .submenuItem a:hover {
-    /* background: url("//cdn.udanax.cz/file/bj/_design/footer-list-icon2.png") no-repeat  !important;
+    /* background: url("//img1.udanax.cz/file/bj/_design/footer-list-icon2.png") no-repeat  !important;
     background-position: center left 10px !important;*/
     border: 0;
     color: #f7ca33 !important;
@@ -199,7 +199,7 @@ h3 {
 
 #beerjet-model {
     position: relative;
-    background-image: url("//cdn.udanax.cz/file/bj/bg/bg.jpg");
+    background-image: url("//img1.udanax.cz/file/bj/bg/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 570px;
@@ -417,8 +417,8 @@ h3 {
     margin-top: 0;
 }
 
-#beerjet-facts {
-    background-image: url("//cdn.udanax.cz/file/bj/bg/home-facts.jpg");
+#beerjet-facts, #beerjet-introtext {
+    background-image: url("//img1.udanax.cz/file/bj/bg/home-facts.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -512,11 +512,11 @@ h3 {
 #counter-bg {
     margin: 40px 0 0 0;
     padding-bottom: 40px;
-    background: url("//cdn.udanax.cz/file/bj/bg/home-counter.jpg") no-repeat center center fixed;
-    background-image: url("//cdn.udanax.cz/file/bj/bg/home-counter.jpg");
+    background: url("//img1.udanax.cz/file/bj/bg/home-counter.jpg") no-repeat center center fixed;
+    background-image: url("//img1.udanax.cz/file/bj/bg/home-counter.jpg");
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cdn.udanax.cz/file/bj/bg/home-counter.jpg',sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//cdn.udanax.cz/file/bj/bg/home-counter.jpg', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img1.udanax.cz/file/bj/bg/home-counter.jpg',sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img1.udanax.cz/file/bj/bg/home-counter.jpg', sizingMethod='scale')";
 }
 
 .subheading-wh, .subheading-wh p {
