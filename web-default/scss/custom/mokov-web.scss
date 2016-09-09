@@ -9,131 +9,16 @@ $color_template_secondary: #222;
     color: $color_template_primary;
 }
 
-.career-form-desc {
-    margin: 5px 10px 20px 10px !important;
-}
-.career-form {
-    margin-bottom: 30px;
-}
-.career-form table {
-    width: 100% !important;
-}
-.career-form td {
-    padding-bottom: 10px;
-}
-.career-form th,td {
-    font-size: 1.25em;
-}
-.career-form th {
-    width: 180px;
-    vertical-align: top;
-}
-.career-form td {
-    text-align: left;
-}
-.career-form input[type=checkbox] {
-    margin-right: 5px;
-}
-.career-form .text-center {
-    text-align: center !important;
-}
-.career-form tr.required th:after{
-    content:" *";
-    color:#ff0000;
-    font-size:150%;
-}
-.career-positions {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.career-positions .position {
-    background-color: #00447f;
-    color: #fff;
-    margin: 0px 0 20px 0;
-    text-align: left;
-    padding: 20px 15px;
-}
-.career-positions .position a {
-    color: #fff;
-}
-.career-positions-icon {
-    float: left;
-    width: 1em;
-    height: 92px;
-    margin: 5px 15px 5px 0;
-    background-color: #fff;
-    border: 5px solid #fff;
-    max-width: 120px;
-    width: auto;
-    margin: -30px 15px 5px -20px;
-}
-.positioncard-logo {
-    padding: 20px 5px;
-
-    img {
-        max-width: 100%;
-        width: auto;
-        height: 81px;
-    }
-}
-.career-form h3 {
-    margin-top: 20px;
-    font-size: 2em;
-    font-family: Ubuntu Condensed,Tahoma;
-}
-.career-positions-h {
-    text-align: left;
-    font-family: Ubuntu Condensed,Tahoma;
-    font-size: 1.5em !important;
-    margin-bottom: 0;
-}
 .maxwidth-350 {
     max-width: 350px;
 }
+
 .minheight-200 {
     min-height: 200px;
 }
 
 .no-margin {
     margin: 0 !important;
-}
-
-.career-detailbox {
-    color: #fff;
-    padding: 30px 20px;
-
-    h3 {
-        font-size: 1.7em;
-    }
-
-    h4 {
-        font-size: 1.5em;
-    }
-}
-
-.career-detailbox h3, .career-detailbox h4, .career-detailbox h5 {
-    color: #fff;
-}
-
-.career-detailbox-desc {
-    margin: 15px 0px 20px 0px;
-    padding: 20px 30px 10px 50px;
-    text-align: left;
-    background-color: #6b6b6d;
-    color: #fff;
-}
-
-.career-detailbox-req {
-    margin: -30px -20px -30px -20px;
-    padding: 20px 20px;
-    text-align: left;
-    background-color: #f0f0f0;
-    color: #424242;
-
-    h5 {
-        font-size: 1.3em;
-        color: #424242;
-    }
 }
 
 #wrapper {
