@@ -4,6 +4,7 @@ $color_template_primary: #fecb24;
 $color_template_secondary: #53534a;
 
 @import "base";
+@import "../part/timeline";
 
 body {
     font-family: Arial;
