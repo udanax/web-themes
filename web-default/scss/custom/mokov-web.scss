@@ -58,3 +58,9 @@ $color_template_secondary: #222;
     background-position: left center;
     color: #ffffff;
 }
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0px;
+    }
+}
