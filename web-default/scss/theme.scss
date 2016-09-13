@@ -862,10 +862,16 @@ blockquote {
 
 @import "part/opening-hours";
 
-form .g-recaptcha {
-    width: 304px;
-    margin: 0 auto;
-    margin-top: -10px;
+form {
+    label {
+        display: inline;
+    }
+
+    .g-recaptcha {
+        width: 304px;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
 }
 
 @import "part/header";
