@@ -13,11 +13,18 @@ $color_template_secondary: #222;
 header {
     margin-top: 0;
     text-align: center;
+    background-color: #2196F3;
 
     h1 {
         color: #fff;
         margin: 5px 0;
     }
+}
+
+.career-company-list {
+    padding: 10px 20px;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
 @media screen and (min-width: 992px) {
