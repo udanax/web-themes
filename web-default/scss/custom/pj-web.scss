@@ -10,6 +10,16 @@ $color_template_secondary: #222;
     margin-left: 0 !important;
 }
 
+header {
+    margin-top: 0;
+    text-align: center;
+
+    h1 {
+        color: #fff;
+        margin: 5px 0;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .alert-box {
         left: 0px;
