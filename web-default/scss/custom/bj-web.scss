@@ -379,18 +379,10 @@ h3 {
     color: #fff;
 }
 
-#home-link:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
 #home-link {
     float: left;
     margin-top: 20px;
-    width: 264px;
+    max-width: 264px;
     height: 36px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -398,6 +390,14 @@ h3 {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     -webkit-transform: translateZ(0px);
+
+    &:hover {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
 }
 
 .navArea {
