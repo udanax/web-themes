@@ -1,0 +1,91 @@
+@import "default-vars";
+
+$color_template_primary: #81bc00;
+$color_template_secondary: #ae0600;
+
+@import "base";
+
+.heading h2::first-letter {
+    color: #81bc00;
+}
+
+.list-bange {
+    background-color: #81bc00;
+}
+
+blockquote:before {
+    color: #81bc00;
+}
+
+blockquote cite {
+    color: #81bc00;
+}
+
+.gototop i {
+    color: #81bc00;
+}
+
+.footer {
+    background: #81bc00;
+}
+
+.beers-hidden {
+    display: none;
+}
+
+#flyersCarousel img {
+    margin: 0 auto;
+}
+
+#flyersCarousel .carousel-indicators {
+    bottom: -50px;
+}
+
+#flyersCarousel .carousel-indicators li {
+    border-color: #222;
+    border-width: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+#flyersCarousel .carousel-indicators .active {
+    background-color: #81bc00;
+}
+
+#flyersCarousel .carousel-control {
+    background: none;
+    color: #000;
+    font-size: 400% !important;
+    font-weight: bold;
+}
+
+#flyersCarousel .carousel-control .fa-stack {
+    margin-top: -90px;
+    font-size: 90px;
+}
+
+.login-box:hover {
+    background: #81bc00;
+}
+
+.contact.submit:hover {
+    background: #81bc00;
+}
+
+.reservation-box {
+    background-color: #81bc00;
+}
+
+.reservation-box a {
+    color: #fff;
+}
+
+.partners-line {
+    text-align: center;
+}
+
+.partners-line a img {
+    margin: 35px 15px;
+    border: 0;
+    text-decoration: none;
+}
