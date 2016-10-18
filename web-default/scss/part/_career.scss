@@ -1,30 +1,38 @@
+.career-welcome-text {
+    background-color: #4e2828;
+    color: #fff;
+    padding: 10px 20px;
+}
+
 .career-form-desc {
     margin: 5px 10px 20px 10px !important;
 }
 
-.career-form table {
-    width: 100% !important;
-}
+.career-form {
+    table {
+        width: 100% !important;
+    }
 
-.career-form td {
-    padding-bottom: 10px;
-}
+    td {
+        padding-bottom: 10px;
+    }
 
-.career-form th {
-    width: 180px;
-    vertical-align: top;
-}
+    th {
+        width: 180px;
+        vertical-align: top;
+    }
 
-.career-form td {
-    text-align: left;
-}
+    td {
+        text-align: left;
+    }
 
-.career-form input[type=checkbox] {
-    margin-right: 5px;
-}
+    input[type=checkbox] {
+        margin-right: 5px;
+    }
 
-.career-form .text-center {
-    text-align: center !important;
+    .text-center {
+        text-align: center !important;
+    }
 }
 
 .career-positions {
