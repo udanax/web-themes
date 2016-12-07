@@ -1226,11 +1226,14 @@ h2.intro-sub {
     margin-bottom: 0 !important;
 }
 
-.i-img img {
+.i-img {
     display: inline-block;
-    position: relative;
-    top: -0.1em;
-    height: 1em;
+
+    img {
+        position: relative;
+        top: -0.1em;
+        height: 1em;
+    }
 }
 
 .reward-bange {
