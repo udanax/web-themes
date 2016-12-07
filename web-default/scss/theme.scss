@@ -1225,3 +1225,13 @@ h2.intro-sub {
 .no-bottom-margin {
     margin-bottom: 0 !important;
 }
+
+.i-img img {
+    position: relative;
+    top: -0.1em;
+    height: 1em;
+}
+
+.reward-bange {
+    @include box-shadow(5px 5px 46px 1px rgba(0,0,0,0.3));
+}
