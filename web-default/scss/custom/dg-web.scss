@@ -1,7 +1,7 @@
 @import "default-vars";
 
 $color_template_primary: #0091a0;
-$color_template_secondary: #9e877a;
+$color_template_secondary: #00a000;
 $color_template_nav_li_active_bg: #ffffff;
 
 @import "base";
@@ -12,4 +12,16 @@ $color_template_nav_li_active_bg: #ffffff;
 
 #wrapper {
     margin-left: 0;
+}
+
+a, a:hover {
+    color: $color_template_secondary;
+}
+
+.contact.submit:hover {
+    background: $color_template_secondary;
+}
+
+.reservation-box {
+    background: $color_template_secondary;
 }
