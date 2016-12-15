@@ -31,3 +31,28 @@
     display: inline-block;
     width: 64%;
 }
+
+.new-team-text {
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.team-position {
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.team-wrapper .row {
+    margin-bottom: 30px;
+}
+
+.expand-bio {
+    display:none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #fdcb24;
+    text-transform: uppercase;
+}
