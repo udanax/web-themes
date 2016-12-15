@@ -1243,3 +1243,20 @@ h2.intro-sub {
 .bold {
     font-weight: bold;
 }
+
+.logo-top-menu {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+
+    img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+}
