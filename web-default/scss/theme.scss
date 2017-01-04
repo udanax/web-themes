@@ -251,7 +251,7 @@ header {
         h3 {
             margin: 0;
             padding: 0;
-            color: $white;
+            color: #333;
             font-size: 17px;
             font-weight: 300;
         }
@@ -283,8 +283,9 @@ header {
         padding: 15px;
         @include transition(opacity 0.2s);
     }
+    
     figcaption {
-        background: $color_mine_shaft_approx;
+        background: transparent;
         padding: 15px 25px;
         height: 76px;
         overflow: hidden;
