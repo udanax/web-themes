@@ -1,0 +1,35 @@
+.bold {
+    font-weight: bold;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-top-margin {
+    margin-top: 0 !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0 !important;
+}
+
+.hideClass, .hidden, .display-none {
+    display: none;
+}
+
+.scroll-off   {
+    pointer-events: none;
+}
+
+.collapse {
+    display: block !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.no-bg {
+    background: none;
+}

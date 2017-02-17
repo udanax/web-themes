@@ -71,13 +71,11 @@ $url_0: url(../img/pattern.png);
 
 @import "part/general";
 
+@import "part/shortcuts";
+
 @import "part/menu";
 
 @import "part/team";
-
-.hideClass, .hidden, .display-none {
-    display: none;
-}
 
 .isFixed {
     left: 0;
@@ -99,10 +97,6 @@ $url_0: url(../img/pattern.png);
             color: $white;
         }
     }
-}
-
-.collapse {
-    display: block !important;
 }
 
 @media(max-width: 655px) {
@@ -283,7 +277,7 @@ header {
         padding: 15px;
         @include transition(opacity 0.2s);
     }
-    
+
     figcaption {
         background: transparent;
         padding: 15px 25px;
@@ -1217,18 +1211,6 @@ h2.intro-sub {
     white-space: normal;
 }
 
-.no-margin {
-    margin: 0 !important;
-}
-
-.no-top-margin {
-    margin-top: 0 !important;
-}
-
-.no-bottom-margin {
-    margin-bottom: 0 !important;
-}
-
 .i-img {
     display: inline-block;
 
@@ -1241,10 +1223,6 @@ h2.intro-sub {
 
 .reward-bange {
     @include box-shadow(5px 5px 46px 1px rgba(0,0,0,0.3));
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .logo-top-menu {
