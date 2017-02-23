@@ -57,3 +57,12 @@ a {
 h1.intro {
     display: none;
 }
+
+.alert-primary {
+    background:  #9e083f;
+    color: #fff;
+
+    a, a:hover {
+        color: #fff;
+    }
+}
