@@ -5,6 +5,10 @@ $color_template_secondary: #bfa901;
 
 @import "base";
 
+#wrapper {
+    margin-left: 0 !important;
+}
+
 .heading h2::first-letter {
     color: $color_template_primary;
 }
