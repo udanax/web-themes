@@ -6,6 +6,11 @@
     color: $color_template_primary_font;
 }
 
+.area-block-secondary {
+    background-color: $color_template_secondary;
+    color: $color_template_secondary_font;
+}
+
 blockquote {
     &:before {
         color: $color_template_primary;
