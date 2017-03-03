@@ -3,7 +3,7 @@
 $color_template_primary: #00a1e0;
 $color_template_primary_font: #fff;
 $color_template_secondary: #ffc107;
-$color_template_primary_font: #000;
+$color_template_secondary_font: #000;
 
 @import "base";
 
@@ -21,8 +21,12 @@ $color_template_primary_font: #000;
 
 .intro-box {
     background: #2e8bdc !important;
-    background: #FFC107 !important;
+    background: #ffc107 !important;
     color: #000;
+    
+    h3 {
+        color: #000 !important;
+    }
 }
 
 .intro-box-white {
