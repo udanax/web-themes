@@ -23,7 +23,7 @@ $color_template_secondary_font: #000;
     background: #2e8bdc !important;
     background: #ffc107 !important;
     color: #000;
-    
+
     h3 {
         color: #000 !important;
     }
@@ -82,4 +82,10 @@ h1.intro {
 
 .flyers-carousel .carousel-indicators .active {
     background-color: #00a1e0;
+}
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0
+    }
 }
