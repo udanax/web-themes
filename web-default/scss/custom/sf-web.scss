@@ -39,8 +39,13 @@ a, a:hover {
 }
 
 .btn-primary {
-    background-color: #00a1e1;
-    border-color: #00a1e1;
+    background-color: #04b1ff;
+    border-color: #f0f0f0;
+}
+
+.btn-success {
+    background-color: #eae617;
+    border-color: #eae617;
 }
 
 .width-350 {
@@ -97,7 +102,7 @@ h1.intro {
     background: #00a1e0;
     color: #fff;
 
-    a {
+    a, a:hover {
         color: #fff;
     }
 }
