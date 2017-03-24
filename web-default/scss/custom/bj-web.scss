@@ -7,6 +7,10 @@ $color_template_nav_li_active_bg: #ffffff;
 @import "base";
 @import "../part/timeline";
 
+#wrapper {
+    margin-left: 0 !important;
+}
+
 body {
     font-family: Arial;
     font-weight: normal;
