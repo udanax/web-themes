@@ -2,7 +2,7 @@
 
 $color_template_primary: #00a1e0;
 $color_template_primary_font: #ffffff;
-$color_template_secondary: #ffc107;
+$color_template_secondary: #eae617;
 $color_template_secondary_font: #000000;
 
 @import "base";
@@ -111,11 +111,11 @@ h1.intro {
 }
 
 .navArea .menuItem-flag {
-    fill: #ffc107;
+    fill: #eae617;
 }
 
 .navArea .menuItem-main a {
-    background-color: #ffc107 !important;
+    background-color: #eae617 !important;
     color: #000 !important;
 }
 
