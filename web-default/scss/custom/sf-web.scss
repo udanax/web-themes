@@ -88,3 +88,33 @@ h1.intro {
         left: 0
     }
 }
+
+.stuckMenu {
+    background-color: #00a1e0;
+}
+
+.language-box, .search-box {
+    background: #00a1e0;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+}
+
+.navbar.navbar-inverse.navbar-static-top a {
+    color: #fff;
+}
+
+.navbar.navbar-inverse.navbar-static-top .submenu a {
+    color: #000;
+}
+
+.navArea .menuItem-flag {
+    fill: #ffc107;
+}
+
+.navArea .menuItem-main a {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
