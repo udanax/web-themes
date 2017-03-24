@@ -49,12 +49,11 @@ a, a:hover {
 
 .btn-success {
     background-color: #eae617;
-    border-color: #eae617;
-    color: #000;
+    border-color: #666;
+    color: #000 !important;
     
     &:hover {
         background-color: #c7c40a;
-        color: #000;
     }
 }
 
