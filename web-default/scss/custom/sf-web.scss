@@ -41,11 +41,21 @@ a, a:hover {
 .btn-primary {
     background-color: #04b1ff;
     border-color: #f0f0f0;
+    
+    &:hover {
+        background-color: #009fe6;
+    }
 }
 
 .btn-success {
     background-color: #eae617;
     border-color: #eae617;
+    color: #000;
+    
+    &:hover {
+        background-color: #c7c40a;
+        color: #000;
+    }
 }
 
 .width-350 {
