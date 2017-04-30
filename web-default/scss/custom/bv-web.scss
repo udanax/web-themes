@@ -72,3 +72,9 @@ h1.intro {
         left: 0
     }
 }
+
+@media screen and (min-width: 992px) {
+    #wrapper {
+        margin-left: 0;
+    }
+}
