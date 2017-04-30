@@ -485,28 +485,6 @@ span {
 
 @import "part/footer";
 
-nav.nav-roll-up {
-    height: 80px;
-    overflow: hidden;
-    background: transparent;
-    box-shadow: none;
-
-    ul>li.active a {
-        background: transparent;
-    }
-
-    &:hover {
-        background: #000;
-        box-shadow: 3px 0px 3px #000;
-        height: 100%;
-
-        ul>li.active a {
-            background: $color_template_primary;
-            box-shadow: none;
-        }
-    } 
-}
-
 blockquote {
     font-style: italic;
     margin: 0;
