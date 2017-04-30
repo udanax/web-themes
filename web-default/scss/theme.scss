@@ -487,6 +487,7 @@ span {
 
 .nav-roll-up {
     height: 80px;
+    overflow: hidden;
 
     &:hover {
         height: 100%;
