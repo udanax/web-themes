@@ -485,6 +485,14 @@ span {
 
 @import "part/footer";
 
+.nav-roll-up {
+    height: 80px;
+
+    &:hover {
+        height: 100%;
+    } 
+}
+
 blockquote {
     font-style: italic;
     margin: 0;
