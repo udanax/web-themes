@@ -66,3 +66,9 @@ h1.intro {
         color: #fff;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0
+    }
+}
