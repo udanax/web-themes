@@ -105,3 +105,15 @@ h1.intro {
 h2.intro-sub {
     display: none;
 }
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #wrapper {
+        margin-left: 0;
+    }
+}
