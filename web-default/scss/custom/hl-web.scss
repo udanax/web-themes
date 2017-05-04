@@ -34,3 +34,15 @@ $color_template_secondary: #543c18;
 h1.intro {
     display: none;
 }
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #wrapper {
+        margin-left: 0;
+    }
+}
