@@ -109,7 +109,7 @@ nav.nav-roll-up {
         height: 100%;
 
         ul>li.active a {
-            background: $color_template_primary;
+            background: $color_template_nav_li_active_bg;
         }
 
         & > .nav-roll-up-btn {

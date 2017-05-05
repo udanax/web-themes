@@ -36,3 +36,19 @@ a {
 .papers .btn {
     white-space: normal;
 }
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0;
+
+        .alert {
+            padding-left: 90px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #wrapper {
+        margin-left: 0;
+    }
+}
