@@ -108,7 +108,11 @@ h2.intro-sub {
 
 @media screen and (min-width: 992px) {
     .alert-box {
-        left: 0
+        left: 0;
+
+        .alert {
+            padding-left: 90px;
+        }
     }
 }
 
