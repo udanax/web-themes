@@ -2,6 +2,7 @@
 
 $color_template_primary: #FF5722;
 $color_template_secondary: #333333;
+$color_template_nav_li_active_bg: #ffffff;
 
 @import "base";
 
@@ -31,4 +32,20 @@ $color_template_secondary: #333333;
 
 .s-style-img h2::first-letter {
     color: #fff !important; 
+}
+
+@media screen and (min-width: 992px) {
+    .alert-box {
+        left: 0;
+
+        .alert {
+            padding-left: 90px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #wrapper {
+        margin-left: 0;
+    }
 }
