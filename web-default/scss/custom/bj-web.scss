@@ -716,6 +716,8 @@ h3 {
     color: #42423b;
     cursor: pointer;
     border: none;
+    display: inline-block;
+    margin: 0.3em 0;
 
     &:hover {
         transition: all 0.2s ease;
@@ -772,4 +774,97 @@ h3 {
     text-transform: none;
     font-family: Arial;
     font-weight: 200;
+}
+
+.margin-top {
+    margin-top: 125px;
+}
+
+.margin-bottom-negative {
+    margin-bottom: -55px;
+}
+
+.row-just-container {
+    padding-bottom: 40px;
+}
+
+.row-just-element {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.row-just-element:before {
+    content: url(//img1.udanax.cz/file/bj/symbol/check.svg);
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.container-model h2 {
+    margin-top: 0;
+    font-size: 38px;
+    color: #fdcb24 !important;
+    text-align: left;
+}
+
+.quickfacts {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+
+    .inner {
+        width: 88%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .body {
+        background-color: #f1f1f1;
+        color: #53534a;
+        padding-bottom: 40px;
+        padding-top: 6%;
+        text-align: left;
+    }
+
+    .body p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.quickfacts-heading {
+    text-align: center;
+    background-color: #fdcb24;
+
+    h3 {
+        margin-bottom: 0;
+        color: #53534a;
+        font-size: 24px;
+        line-height: 48px;
+        font-family: Arial;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}
+
+.content-gradient-model {
+    background: #fff;
+    background: -moz-linear-gradient(-45deg, #fff 0%, #d3d3d0 100%);
+    background: -webkit-linear-gradient(-45deg, #fff 0%, #d3d3d0 100%);
+    background: linear-gradient(135deg, #fff 0%, #d3d3d0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3d3d0',GradientType=1 );
+}
+
+.content-gradient-model-sub {
+    position: relative;
+    z-index: 1;
+    height: 480px;
+    background: #4d4d4d;
+    background: -moz-linear-gradient(-45deg, #4d4d4d 0%, #191916 100%);
+    background: -webkit-linear-gradient(-45deg, #4d4d4d 0%, #191916 100%);
+    background: linear-gradient(135deg, #4d4d4d 0%, #191916 100%);
 }
