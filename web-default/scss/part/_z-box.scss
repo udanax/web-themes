@@ -1,0 +1,40 @@
+.z-box {
+    background: #f2f0f3;
+    box-shadow: 2px 2px 16px #000000;
+
+    &:hover.frame {
+        background-color: #fdcb24;
+    }
+
+    &.frame {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &-inner {
+        padding: 3%;
+        &.teaser {
+            text-align: center;
+
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 15px;
+                font-size: 30px;
+                line-height: 30px;
+                color: #000;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+
+                span {
+                    font-size: 24px;
+                    font-weight: 400;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}
