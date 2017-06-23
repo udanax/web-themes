@@ -564,6 +564,7 @@ blockquote {
     left: 0;
     bottom: 0;
     height: 80px;
+    min-width: 70px;
     background: #fff;
     border-top-right-radius: 10px;
     padding: 20px 15px;
@@ -580,7 +581,23 @@ blockquote {
         color: $white;
 
         .login-box-text {
+            position: relative;
+            top: 5px;
             display: inline;
+            font-weight: bold;
+            margin: 0;
+            display: inline-block;
+            text-align: center;
+            margin-left: 45px;
+        }
+
+        .login-box-img {
+            position: absolute;
+        }
+
+        .login-box-text-logged {
+            font-weight: normal;
+            top: -5px;
         }
     }
 }
@@ -623,7 +640,7 @@ blockquote {
 }
 
 .reservation-box {
-    background-color: #2c691f;
+    background-color: #1fc36a;
     color: #fff;
 
     .wrap {
@@ -644,6 +661,18 @@ blockquote {
         display: inline-block;
         background-size: 100% 100%;
     }
+}
+
+@keyframes reservation-box-restu-flashing {
+    0%  {background-color: #1fc36a;}
+    50%  {background-color: #007234;}
+    100%  {background-color: #1fc36a;}
+}
+
+.reservation-box-restu {
+    animation-name: reservation-box-restu-flashing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .reservation-box, .language-box, .search-box, .reservation-box-restu {
@@ -1262,4 +1291,9 @@ h2.intro-sub {
 
 #tracy-error {
     z-index: initial !important;
+}
+
+.btn-success {
+    background-color: #2c691f;
+    border-color: #2c691f;
 }
