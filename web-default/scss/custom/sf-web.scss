@@ -38,10 +38,19 @@ a, a:hover {
     color: #428bca;
 }
 
+// Buttons
+.btn {
+    border-radius: 0;
+}
+
 .btn-primary {
     background-color: #04b1ff;
-    border-color: #f0f0f0;
-    
+    border-color: transparent;
+
+    &.btn-bordered {
+        border-color: #f0f0f0;
+    }
+
     &:hover {
         background-color: #009fe6;
     }
@@ -49,9 +58,13 @@ a, a:hover {
 
 .btn-success {
     background-color: #eae617;
-    border-color: #666;
+    border-color: transparent;
     color: #000 !important;
-    
+
+    &.btn-bordered {
+        border-color: #666;
+    }
+
     &:hover {
         background-color: #c7c40a;
     }

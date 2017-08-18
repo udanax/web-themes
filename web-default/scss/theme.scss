@@ -46,9 +46,6 @@ $font_6: Tahoma;
 $font_7: fontawesome;
 $font_8: Georgia;
 
-//urls
-$url_0: url(../img/pattern.png);
-
 @import "part/the-pay";
 @import "part/timeline";
 
@@ -166,8 +163,6 @@ header {
     height: 100%;
     left: 0;
     top: 0;
-    background-image: $url_0;
-    background-repeat: repeat;
     .container {
         height: 580px;
         padding-top: 120px;
