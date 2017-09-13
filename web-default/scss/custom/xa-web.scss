@@ -5,6 +5,10 @@ $color_template_secondary: #222;
 
 @import "base";
 
+#wrapper {
+    margin-left: 0;
+}
+
 .flyers-carousel .carousel-indicators .active {
     background-color: #ae0600;
 }
