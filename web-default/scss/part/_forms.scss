@@ -14,7 +14,7 @@
 %extend_7 {
     background-color: $white;
     border: 1px solid $red !important;
-    @include transition(border linear 0.2s, box-shadow linear 0.2s);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
 }
 
 input {

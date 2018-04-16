@@ -78,7 +78,7 @@ nav {
                 left: 65px;
                 background: $color_outer_space_approx;
                 color: $white;
-                @include border-radius(5px);
+                border-radius: 5px;
                 padding: 0 14px;
                 line-height: 38px;
                 white-space: nowrap;

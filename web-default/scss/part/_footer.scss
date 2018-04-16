@@ -22,7 +22,7 @@
             margin: 0 4px;
             width: 45px !important;
             height: 45px !important;
-            @include border-radius(3px);
+            border-radius: 3px;
             &:hover {
                 background: $color_shark_approx;
                 a {
@@ -76,7 +76,7 @@
     top: -35px;
     left: 50%;
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
-    @include border-radius(50%);
+    border-radius: 50%;
 
     i {
         color: $color_bright_red_approx;

@@ -2,7 +2,7 @@
 %extend_2 {
     background-color: $white;
     border: 1px solid $color_celeste_approx;
-    @include box-shadow(inset 0 0 30px $black_10, 1px 1px 3px $black_20);
+    box-shadow: inset 0 0 30px $black_10, 1px 1px 3px $black_20;
 }
 
 // used for .papers:before, .papers:after
@@ -13,7 +13,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    @include transform(rotateZ(2.5deg));
+    transform: rotateZ(2.5deg);
     z-index: -1;
 }
 
@@ -36,7 +36,7 @@
     &:after {
         @extend %extend_2;
         @extend %extend_3;
-        @include transform(rotateZ(-2.5deg));
+        transform: rotateZ(-2.5deg);
     }
 
     h1 {

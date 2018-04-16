@@ -1,7 +1,7 @@
 .alert {
     font-weight: bold;
     font-size: 1.5em;
-    @include border-radius(0);
+    border-radius: 0;
     border: 0;
     margin: 0;
     padding: 0.2em 0.7em;

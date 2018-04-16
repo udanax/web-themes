@@ -1,3 +1,6 @@
-nbproject/*
-.sass-cache/*
+*.css
+*.css.map
+
+#IDE
 .idea/*
+nbproject/*
